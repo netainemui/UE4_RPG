@@ -1,0 +1,839 @@
+﻿Log file open, 11/10/22 14:57:47
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: THE7
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(299755174) SRandInit(299755174).
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.405605
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal  -epicusername="RYUSEIGUN-546" -epicuserid=d72d33c051974a0fad240c181fec4aeb -epiclocale=ja -epicsandboxid=ue
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2022.11.10-05.57.47:837][  0]LogInit: Selected Device Profile: [Windows]
+[2022.11.10-05.57.47:837][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.11.10-05.57.47:859][  0]LogInit: Computer: KBC12006017
+[2022.11.10-05.57.47:859][  0]LogInit: User: 小浜大和
+[2022.11.10-05.57.47:860][  0]LogInit: CPU Page size=4096, Cores=8
+[2022.11.10-05.57.47:860][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.11.10-05.57.47:860][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2022.11.10-05.57.47:860][  0]LogMemory: Platform Memory Stats for Windows
+[2022.11.10-05.57.47:860][  0]LogMemory: Process Physical Memory: 282.15 MB used, 282.16 MB peak
+[2022.11.10-05.57.47:860][  0]LogMemory: Process Virtual Memory: 281.36 MB used, 281.36 MB peak
+[2022.11.10-05.57.47:860][  0]LogMemory: Physical Memory: 8903.37 MB used,  56524.79 MB free, 65428.15 MB total
+[2022.11.10-05.57.47:861][  0]LogMemory: Virtual Memory: 4804.50 MB used,  56524.79 MB free, 134217728.00 MB total
+[2022.11.10-05.57.48:136][  0]LogInit: Using OS detected language (ja-JP).
+[2022.11.10-05.57.48:136][  0]LogInit: Using OS detected locale (ja-JP).
+[2022.11.10-05.57.48:138][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2022.11.10-05.57.48:683][  0]LogD3D11RHI: D3D11 adapters:
+[2022.11.10-05.57.48:727][  0]LogD3D11RHI:    0. 'AMD Radeon Pro 5500M' (Feature Level 11_0)
+[2022.11.10-05.57.48:727][  0]LogD3D11RHI:       8151/0/32714 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2022.11.10-05.57.48:728][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.11.10-05.57.48:728][  0]LogD3D11RHI:       0/0/32714 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.11.10-05.57.48:728][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.11.10-05.57.48:742][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.11.10-05.57.48:743][  0]LogD3D11RHI:     GPU DeviceId: 0x7340 (for the marketing name, search the web for "GPU Device Id")
+[2022.11.10-05.57.48:743][  0]LogWindows: EnumDisplayDevices:
+[2022.11.10-05.57.48:743][  0]LogWindows:    0. 'AMD Radeon Pro 5500M' (P:1 D:1)
+[2022.11.10-05.57.48:744][  0]LogWindows:    1. 'AMD Radeon Pro 5500M' (P:0 D:0)
+[2022.11.10-05.57.48:744][  0]LogWindows:    2. 'AMD Radeon Pro 5500M' (P:0 D:0)
+[2022.11.10-05.57.48:745][  0]LogWindows:    3. 'AMD Radeon Pro 5500M' (P:0 D:0)
+[2022.11.10-05.57.48:745][  0]LogWindows:    4. 'AMD Radeon Pro 5500M' (P:0 D:0)
+[2022.11.10-05.57.48:746][  0]LogWindows:    5. 'AMD Radeon Pro 5500M' (P:0 D:0)
+[2022.11.10-05.57.48:746][  0]LogWindows:    6. 'AMD Radeon Pro 5500M' (P:0 D:0)
+[2022.11.10-05.57.48:747][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2022.11.10-05.57.48:747][  0]LogD3D11RHI:     Adapter Name: AMD Radeon Pro 5500M
+[2022.11.10-05.57.48:747][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2022.11.10-05.57.48:747][  0]LogD3D11RHI:      Driver Date: Unknown
+[2022.11.10-05.57.48:747][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2022.11.10-05.57.48:894][  0]LogD3D11RHI: Async texture creation enabled
+[2022.11.10-05.57.48:932][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2022.11.10-05.57.48:936][  0]LogShaderCompilers: Guid format shader working directory is 20 characters bigger than the processId version (../../../../../../UE4/THE7/Intermediate/Shaders/WorkingDirectory/3800/).
+[2022.11.10-05.57.48:937][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/81806/AppData/Local/Temp/UnrealShaderWorkingDir/01BAD3184D74DC76F50BD0AB7CEE1140/'.
+[2022.11.10-05.57.48:937][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.11.10-05.57.49:891][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2022.11.10-05.57.49:958][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2022.11.10-05.57.50:022][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2022.11.10-05.57.50:086][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2022.11.10-05.57.50:152][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2022.11.10-05.57.50:219][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2022.11.10-05.57.50:285][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2022.11.10-05.57.50:353][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2022.11.10-05.57.50:411][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2022.11.10-05.57.50:475][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.11.10-05.57.50:538][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2022.11.10-05.57.50:601][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2022.11.10-05.57.50:665][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2022.11.10-05.57.50:728][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2022.11.10-05.57.50:790][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2022.11.10-05.57.50:915][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2022.11.10-05.57.50:915][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2022.11.10-05.57.50:971][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2022.11.10-05.57.51:092][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2022.11.10-05.57.51:133][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2022.11.10-05.57.51:199][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2022.11.10-05.57.51:262][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2022.11.10-05.57.51:325][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2022.11.10-05.57.51:389][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2022.11.10-05.57.51:389][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.11.10-05.57.52:074][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.11.10-05.57.52:137][  0]LogDerivedDataCache: Loaded boot cache 0.06s 93MB C:/Users/81806/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2022.11.10-05.57.52:137][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/81806/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2022.11.10-05.57.52:137][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../UE4/THE7/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.11.10-05.57.52:137][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.11.10-05.57.52:137][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../UE4/THE7/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.11.10-05.57.52:137][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.11.10-05.57.52:150][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.11.10-05.57.52:162][  0]LogDerivedDataCache: Using Local data cache path C:/Users/81806/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.11.10-05.57.52:171][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2022.11.10-05.57.52:171][  0]LogSlate: Using Freetype 2.6.0
+[2022.11.10-05.57.52:171][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.11.10-05.57.52:171][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.11.10-05.57.52:393][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2022.11.10-05.57.52:513][  0]LogInit: Selected Device Profile: [Windows]
+[2022.11.10-05.57.53:134][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2022.11.10-05.57.53:192][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2022.11.10-05.57.53:192][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.11.10-05.57.53:192][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2022.11.10-05.57.53:192][  0]LogMeshReduction: No automatic mesh merging module available
+[2022.11.10-05.57.53:192][  0]LogMeshMerging: No automatic mesh merging module available
+[2022.11.10-05.57.53:218][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2022.11.10-05.57.53:584][  0]LogNetVersion: THE7 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 151110352)
+[2022.11.10-05.57.53:798][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.023129 seconds
+[2022.11.10-05.57.53:801][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2022.11.10-05.57.53:801][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2022.11.10-05.57.53:801][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.11.10-05.57.53:906][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2022.11.10-05.57.56:920][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.11.10-05.57.56:975][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.11.10-05.57.57:783][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2022.11.10-05.57.58:260][  0]SourceControl: ソースコントロールは無効です
+[2022.11.10-05.57.58:260][  0]SourceControl: ソースコントロールは無効です
+[2022.11.10-05.57.58:321][  0]SourceControl: ソースコントロールは無効です
+[2022.11.10-05.57.58:381][  0]SourceControl: ソースコントロールは無効です
+[2022.11.10-05.57.59:130][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.11.10-05.57.59:442][  0]LogOcInput: OculusInput pre-init called
+[2022.11.10-05.57.59:768][  0]LogEngine: Initializing Engine...
+[2022.11.10-05.57.59:770][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.11.10-05.57.59:937][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2022.11.10-05.57.59:937][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2022.11.10-05.58.00:110][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.11.10-05.58.00:130][  0]LogInit: XAudio2 using 'スピーカー (Apple Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.11.10-05.58.00:205][  0]LogInit: FAudioDevice initialized.
+[2022.11.10-05.58.00:283][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/81806/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2022.11.10-05.58.00:292][  0]LogInit: Texture streaming: Enabled
+[2022.11.10-05.58.00:484][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.11.10-05.58.00:785][  0]LogInit: Transaction tracking system initialized
+[2022.11.10-05.58.01:229][  0]BlueprintLog: New page: エディタの読み込み
+[2022.11.10-05.58.02:542][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2022.11.10-05.58.03:262][  0]LogLinker: Warning: ファイル '/Game/ThirdPersonBP/ThirdPersonOverview' が見つかりません
+[2022.11.10-05.58.03:262][  0]LogLinker: Warning: ファイル '/Game/ThirdPersonBP/ThirdPersonOverview' が見つかりません
+[2022.11.10-05.58.03:262][  0]LogUObjectGlobals: Warning: オブジェクト 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C' が見つかりませんでした
+[2022.11.10-05.58.03:501][  0]LogConsoleResponse: Display: 
+[2022.11.10-05.58.03:667][  0]LogFileCache: Scanning file cache for directory 'C:/UE4/THE7/Content/' took 0.01s
+[2022.11.10-05.58.03:667][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.11.10-05.58.03:667][  0]LogCook: Display: Mobile HDR setting 1
+[2022.11.10-05.58.03:667][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2022.11.10-05.58.05:053][  0]SourceControl: ソースコントロールは無効です
+[2022.11.10-05.58.05:056][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.17/FeaturePacks/StarterContent.upack)
+[2022.11.10-05.58.05:061][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2022.11.10-05.58.05:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2022.11.10-05.58.05:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2022.11.10-05.58.05:077][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2022.11.10-05.58.05:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2022.11.10-05.58.05:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2022.11.10-05.58.05:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2022.11.10-05.58.05:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2022.11.10-05.58.05:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2022.11.10-05.58.05:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2022.11.10-05.58.05:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2022.11.10-05.58.05:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2022.11.10-05.58.05:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Collapse01.uasset"
+[2022.11.10-05.58.05:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Collapse02.uasset"
+[2022.11.10-05.58.05:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2022.11.10-05.58.05:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Explosion01.uasset"
+[2022.11.10-05.58.05:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Explosion02.uasset"
+[2022.11.10-05.58.05:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2022.11.10-05.58.05:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Fire01.uasset"
+[2022.11.10-05.58.05:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2022.11.10-05.58.05:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2022.11.10-05.58.05:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2022.11.10-05.58.05:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Light01.uasset"
+[2022.11.10-05.58.05:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2022.11.10-05.58.05:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Light02.uasset"
+[2022.11.10-05.58.05:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2022.11.10-05.58.05:188][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Smoke01.uasset"
+[2022.11.10-05.58.05:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2022.11.10-05.58.05:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2022.11.10-05.58.05:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2022.11.10-05.58.05:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2022.11.10-05.58.05:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2022.11.10-05.58.05:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2022.11.10-05.58.05:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2022.11.10-05.58.05:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Steam01.uasset"
+[2022.11.10-05.58.05:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2022.11.10-05.58.05:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2022.11.10-05.58.05:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2022.11.10-05.58.05:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2022.11.10-05.58.05:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2022.11.10-05.58.05:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2022.11.10-05.58.05:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2022.11.10-05.58.05:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2022.11.10-05.58.05:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2022.11.10-05.58.05:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2022.11.10-05.58.05:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2022.11.10-05.58.05:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2022.11.10-05.58.05:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2022.11.10-05.58.05:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2022.11.10-05.58.05:309][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2022.11.10-05.58.05:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2022.11.10-05.58.05:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2022.11.10-05.58.05:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2022.11.10-05.58.05:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../UE4/THE7/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2022.11.10-05.58.06:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2022.11.10-05.58.06:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../UE4/THE7/Content/StarterContent/Maps/Minimal_Default.umap"
+[2022.11.10-05.58.06:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2022.11.10-05.58.06:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../UE4/THE7/Content/StarterContent/Maps/StarterMap.umap"
+[2022.11.10-05.58.06:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2022.11.10-05.58.06:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2022.11.10-05.58.06:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2022.11.10-05.58.06:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2022.11.10-05.58.06:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2022.11.10-05.58.06:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2022.11.10-05.58.06:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2022.11.10-05.58.06:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2022.11.10-05.58.06:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2022.11.10-05.58.06:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2022.11.10-05.58.06:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2022.11.10-05.58.06:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2022.11.10-05.58.06:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2022.11.10-05.58.06:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2022.11.10-05.58.06:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2022.11.10-05.58.06:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2022.11.10-05.58.06:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2022.11.10-05.58.06:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2022.11.10-05.58.06:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Glass.uasset"
+[2022.11.10-05.58.06:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2022.11.10-05.58.06:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2022.11.10-05.58.06:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2022.11.10-05.58.06:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2022.11.10-05.58.06:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2022.11.10-05.58.06:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2022.11.10-05.58.06:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2022.11.10-05.58.06:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2022.11.10-05.58.06:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2022.11.10-05.58.06:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2022.11.10-05.58.06:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2022.11.10-05.58.06:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2022.11.10-05.58.06:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2022.11.10-05.58.06:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2022.11.10-05.58.06:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2022.11.10-05.58.06:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2022.11.10-05.58.06:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2022.11.10-05.58.06:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2022.11.10-05.58.06:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2022.11.10-05.58.06:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2022.11.10-05.58.06:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2022.11.10-05.58.06:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2022.11.10-05.58.06:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2022.11.10-05.58.06:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2022.11.10-05.58.06:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2022.11.10-05.58.06:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2022.11.10-05.58.06:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Particles/P_Explosion.uasset"
+[2022.11.10-05.58.06:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Particles/P_Fire.uasset"
+[2022.11.10-05.58.06:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Particles/P_Smoke.uasset"
+[2022.11.10-05.58.06:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Particles/P_Sparks.uasset"
+[2022.11.10-05.58.06:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2022.11.10-05.58.06:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2022.11.10-05.58.06:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2022.11.10-05.58.06:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2022.11.10-05.58.06:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2022.11.10-05.58.06:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2022.11.10-05.58.06:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2022.11.10-05.58.06:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2022.11.10-05.58.06:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2022.11.10-05.58.06:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2022.11.10-05.58.06:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2022.11.10-05.58.06:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/MaterialSphere.uasset"
+[2022.11.10-05.58.06:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/SM_Bush.uasset"
+[2022.11.10-05.58.06:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/SM_Chair.uasset"
+[2022.11.10-05.58.06:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2022.11.10-05.58.06:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/SM_Couch.uasset"
+[2022.11.10-05.58.06:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/SM_Door.uasset"
+[2022.11.10-05.58.06:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2022.11.10-05.58.06:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2022.11.10-05.58.06:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2022.11.10-05.58.06:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2022.11.10-05.58.06:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2022.11.10-05.58.06:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2022.11.10-05.58.06:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2022.11.10-05.58.06:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/SM_Rock.uasset"
+[2022.11.10-05.58.06:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/SM_Shelf.uasset"
+[2022.11.10-05.58.06:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/SM_Stairs.uasset"
+[2022.11.10-05.58.06:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/SM_Statue.uasset"
+[2022.11.10-05.58.06:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/SM_TableRound.uasset"
+[2022.11.10-05.58.06:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2022.11.10-05.58.06:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2022.11.10-05.58.06:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2022.11.10-05.58.06:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2022.11.10-05.58.06:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2022.11.10-05.58.06:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2022.11.10-05.58.06:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2022.11.10-05.58.06:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2022.11.10-05.58.06:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2022.11.10-05.58.06:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2022.11.10-05.58.06:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2022.11.10-05.58.06:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2022.11.10-05.58.06:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2022.11.10-05.58.06:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2022.11.10-05.58.06:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2022.11.10-05.58.06:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2022.11.10-05.58.06:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2022.11.10-05.58.06:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2022.11.10-05.58.06:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2022.11.10-05.58.06:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2022.11.10-05.58.06:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2022.11.10-05.58.06:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2022.11.10-05.58.06:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2022.11.10-05.58.06:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2022.11.10-05.58.06:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2022.11.10-05.58.06:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2022.11.10-05.58.06:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2022.11.10-05.58.06:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2022.11.10-05.58.06:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2022.11.10-05.58.06:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2022.11.10-05.58.06:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2022.11.10-05.58.06:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2022.11.10-05.58.06:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2022.11.10-05.58.06:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2022.11.10-05.58.06:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2022.11.10-05.58.06:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2022.11.10-05.58.06:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2022.11.10-05.58.06:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2022.11.10-05.58.06:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2022.11.10-05.58.06:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2022.11.10-05.58.06:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2022.11.10-05.58.06:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2022.11.10-05.58.06:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2022.11.10-05.58.06:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2022.11.10-05.58.06:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2022.11.10-05.58.06:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2022.11.10-05.58.06:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2022.11.10-05.58.06:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2022.11.10-05.58.06:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2022.11.10-05.58.06:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2022.11.10-05.58.06:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2022.11.10-05.58.06:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2022.11.10-05.58.06:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2022.11.10-05.58.06:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2022.11.10-05.58.06:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2022.11.10-05.58.06:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2022.11.10-05.58.06:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2022.11.10-05.58.06:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2022.11.10-05.58.07:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2022.11.10-05.58.07:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2022.11.10-05.58.07:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2022.11.10-05.58.07:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2022.11.10-05.58.07:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2022.11.10-05.58.07:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2022.11.10-05.58.07:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2022.11.10-05.58.07:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2022.11.10-05.58.07:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2022.11.10-05.58.07:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2022.11.10-05.58.07:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2022.11.10-05.58.07:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2022.11.10-05.58.07:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2022.11.10-05.58.07:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Door_M.uasset"
+[2022.11.10-05.58.07:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Door_N.uasset"
+[2022.11.10-05.58.07:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2022.11.10-05.58.07:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2022.11.10-05.58.07:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2022.11.10-05.58.07:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2022.11.10-05.58.07:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2022.11.10-05.58.07:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2022.11.10-05.58.07:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2022.11.10-05.58.07:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2022.11.10-05.58.07:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2022.11.10-05.58.07:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2022.11.10-05.58.07:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2022.11.10-05.58.07:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2022.11.10-05.58.07:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2022.11.10-05.58.07:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2022.11.10-05.58.07:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2022.11.10-05.58.07:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2022.11.10-05.58.07:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2022.11.10-05.58.07:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2022.11.10-05.58.07:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2022.11.10-05.58.07:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2022.11.10-05.58.07:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2022.11.10-05.58.07:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2022.11.10-05.58.07:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2022.11.10-05.58.07:501][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2022.11.10-05.58.07:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2022.11.10-05.58.07:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2022.11.10-05.58.07:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2022.11.10-05.58.07:540][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2022.11.10-05.58.07:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2022.11.10-05.58.07:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2022.11.10-05.58.07:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2022.11.10-05.58.07:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2022.11.10-05.58.07:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2022.11.10-05.58.07:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2022.11.10-05.58.07:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2022.11.10-05.58.07:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2022.11.10-05.58.07:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2022.11.10-05.58.07:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2022.11.10-05.58.07:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2022.11.10-05.58.07:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2022.11.10-05.58.07:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2022.11.10-05.58.07:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2022.11.10-05.58.07:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2022.11.10-05.58.07:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2022.11.10-05.58.07:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2022.11.10-05.58.07:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2022.11.10-05.58.07:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2022.11.10-05.58.07:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2022.11.10-05.58.07:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2022.11.10-05.58.07:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2022.11.10-05.58.07:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2022.11.10-05.58.07:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Water_M.uasset"
+[2022.11.10-05.58.07:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Water_N.uasset"
+[2022.11.10-05.58.07:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2022.11.10-05.58.07:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2022.11.10-05.58.07:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2022.11.10-05.58.07:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2022.11.10-05.58.07:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2022.11.10-05.58.07:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2022.11.10-05.58.07:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2022.11.10-05.58.07:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2022.11.10-05.58.07:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../UE4/THE7/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2022.11.10-05.58.08:004][  0]LogStaticMesh: スタティックメッシュ Floor_400x400 をビルド中...
+[2022.11.10-05.58.08:006][  0]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2022.11.10-05.58.08:124][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2022.11.10-05.58.08:214][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../../../UE4/THE7/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2022.11.10-05.58.08:227][  0]LogSavePackage: Save=10.91ms
+[2022.11.10-05.58.08:227][  0]LogSavePackage: Moving '../../../../../../UE4/THE7/Saved/Floor_400x400D1397724482EDBC72F7FFBBA293A3C36.tmp' to '../../../../../../UE4/THE7/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2022.11.10-05.58.08:229][  0]LogSavePackage: Display: Finished SavePackage ../../../../../../UE4/THE7/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2022.11.10-05.58.08:229][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2022.11.10-05.58.08:230][  0]Cmd: MAP LOAD FILE="../../../../../../UE4/THE7/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.10-05.58.08:230][  0]LightingResults: New page: ライティングのビルド
+[2022.11.10-05.58.08:285][  0]MapCheck: New page: マップをチェック
+[2022.11.10-05.58.08:285][  0]LightingResults: New page: <何も選択されていません>
+[2022.11.10-05.58.08:590][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2022.11.10-05.58.08:597][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.10-05.58.08:614][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.10-05.58.08:662][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 47.788ミリ秒かかりました。
+[2022.11.10-05.58.08:662][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.432
+[2022.11.10-05.58.08:876][  0]LogCollectionManager: Loaded 0 collections in 0.001404 seconds
+[2022.11.10-05.58.08:991][  0]LogFileCache: Scanning file cache for directory 'C:/UE4/THE7/Saved/Collections/' took 0.01s
+[2022.11.10-05.58.08:991][  0]LogFileCache: Scanning file cache for directory 'C:/UE4/THE7/Content/Developers/小浜大和/Collections/' took 0.01s
+[2022.11.10-05.58.08:991][  0]LogFileCache: Scanning file cache for directory 'C:/UE4/THE7/Content/Collections/' took 0.01s
+[2022.11.10-05.58.08:991][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2022.11.10-05.58.08:998][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2386 classes and 500 folders.
+[2022.11.10-05.58.09:087][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.11.10-05.58.09:121][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.11.10-05.58.09:225][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2022.11.10-05.58.09:286][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2022.11.10-05.58.09:376][  0]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.10-05.58.09:378][  0]LogSlate: Took 0.001561 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.11.10-05.58.09:378][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.11.10-05.58.09:381][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.11.10-05.58.09:412][  0]LogRenderer: Reallocating scene render targets to support 924x496 Format 10 NumSamples 1 (Frame:1).
+[2022.11.10-05.58.09:544][  0]LogSlate: Took 0.000409 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2022.11.10-05.58.09:732][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2022.11.10-05.58.09:732][  0]LogLoad: (Engine Initialization) Total time: 23.88 seconds
+[2022.11.10-05.58.09:732][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.11.10-05.58.09:732][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2022.11.10-05.58.09:776][  0]LogAssetRegistry: Asset discovery search completed in 17.4050 seconds
+[2022.11.10-05.58.09:777][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2022.11.10-05.58.09:777][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
+[2022.11.10-05.58.09:867][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.11.10-05.59.51:657][587]LogDirectoryWatcher: A directory notification failed for 'C:/UE4/THE7/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2022.11.10-05.59.51:657][587]LogDirectoryWatcher: A directory notification failed for 'C:/UE4/THE7/Content/Developers/小浜大和/Collections/' because it could not be accessed. Aborting watch request...
+[2022.11.10-05.59.51:658][587]LogDirectoryWatcher: A directory notification failed for 'C:/UE4/THE7/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2022.11.10-06.03.43:176][652]Cmd: QUIT_EDITOR
+[2022.11.10-06.03.43:266][652]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2022.11.10-06.03.43:278][652]LogExit: Preparing to exit.
+[2022.11.10-06.03.44:322][652]LogDirectoryWatcher: A directory notification for 'C:/UE4/THE7/Content/' was aborted.
+[2022.11.10-06.03.44:347][652]LogExit: Editor shut down
+[2022.11.10-06.03.44:355][652]LogExit: Transaction tracking system shut down
+[2022.11.10-06.03.44:519][652]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2022.11.10-06.03.44:519][652]LogDirectoryWatcher: A directory notification for '../../../../../../UE4/THE7/Content/' was aborted.
+[2022.11.10-06.03.44:519][652]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2022.11.10-06.03.44:520][652]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2022.11.10-06.03.44:520][652]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2022.11.10-06.03.44:594][652]LogExit: Object subsystem successfully closed.
+[2022.11.10-06.03.44:634][652]LogD3D11RHI: Shutdown
+[2022.11.10-06.03.44:634][652]LogD3D11RHI: CleanupD3DDevice
+[2022.11.10-06.03.44:918][652]LogD3D11RHI: ~FD3D11DynamicRHI
+[2022.11.10-06.03.44:973][652]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2022.11.10-06.03.44:974][652]LogModuleManager: Shutting down and abandoning module WorldBrowser (530)
+[2022.11.10-06.03.44:974][652]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2022.11.10-06.03.44:974][652]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2022.11.10-06.03.44:974][652]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2022.11.10-06.03.44:975][652]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2022.11.10-06.03.44:976][652]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2022.11.10-06.03.44:976][652]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2022.11.10-06.03.44:976][652]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2022.11.10-06.03.44:976][652]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2022.11.10-06.03.44:976][652]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2022.11.10-06.03.44:976][652]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2022.11.10-06.03.44:976][652]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2022.11.10-06.03.44:976][652]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2022.11.10-06.03.44:976][652]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2022.11.10-06.03.44:976][652]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2022.11.10-06.03.44:976][652]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2022.11.10-06.03.44:976][652]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2022.11.10-06.03.44:976][652]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2022.11.10-06.03.44:976][652]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2022.11.10-06.03.44:976][652]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2022.11.10-06.03.44:976][652]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2022.11.10-06.03.44:976][652]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2022.11.10-06.03.44:977][652]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2022.11.10-06.03.44:977][652]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2022.11.10-06.03.44:977][652]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2022.11.10-06.03.44:977][652]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2022.11.10-06.03.44:977][652]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2022.11.10-06.03.44:977][652]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2022.11.10-06.03.44:977][652]LogModuleManager: Shutting down and abandoning module Media (477)
+[2022.11.10-06.03.44:977][652]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2022.11.10-06.03.44:977][652]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2022.11.10-06.03.44:977][652]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2022.11.10-06.03.44:977][652]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2022.11.10-06.03.44:977][652]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2022.11.10-06.03.44:977][652]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2022.11.10-06.03.44:977][652]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2022.11.10-06.03.44:977][652]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2022.11.10-06.03.44:977][652]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2022.11.10-06.03.44:977][652]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2022.11.10-06.03.44:977][652]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2022.11.10-06.03.44:977][652]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2022.11.10-06.03.44:978][652]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2022.11.10-06.03.44:978][652]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2022.11.10-06.03.44:978][652]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2022.11.10-06.03.44:978][652]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2022.11.10-06.03.45:261][652]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2022.11.10-06.03.45:261][652]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2022.11.10-06.03.45:261][652]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2022.11.10-06.03.45:261][652]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2022.11.10-06.03.45:261][652]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2022.11.10-06.03.45:261][652]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2022.11.10-06.03.45:261][652]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2022.11.10-06.03.45:261][652]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2022.11.10-06.03.45:261][652]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2022.11.10-06.03.45:262][652]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2022.11.10-06.03.45:262][652]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2022.11.10-06.03.45:262][652]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2022.11.10-06.03.45:262][652]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2022.11.10-06.03.45:262][652]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2022.11.10-06.03.45:262][652]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2022.11.10-06.03.45:262][652]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2022.11.10-06.03.45:263][652]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2022.11.10-06.03.45:263][652]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2022.11.10-06.03.45:263][652]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2022.11.10-06.03.45:263][652]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2022.11.10-06.03.45:263][652]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2022.11.10-06.03.45:263][652]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2022.11.10-06.03.45:263][652]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2022.11.10-06.03.45:264][652]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2022.11.10-06.03.45:319][652]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2022.11.10-06.03.45:319][652]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2022.11.10-06.03.45:319][652]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2022.11.10-06.03.45:319][652]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2022.11.10-06.03.45:319][652]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2022.11.10-06.03.45:319][652]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2022.11.10-06.03.45:320][652]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2022.11.10-06.03.45:320][652]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2022.11.10-06.03.45:320][652]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2022.11.10-06.03.45:320][652]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2022.11.10-06.03.45:321][652]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2022.11.10-06.03.45:321][652]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2022.11.10-06.03.45:321][652]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2022.11.10-06.03.45:321][652]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2022.11.10-06.03.45:321][652]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2022.11.10-06.03.45:321][652]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2022.11.10-06.03.45:321][652]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2022.11.10-06.03.45:321][652]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2022.11.10-06.03.45:322][652]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2022.11.10-06.03.45:322][652]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2022.11.10-06.03.45:322][652]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2022.11.10-06.03.45:322][652]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2022.11.10-06.03.45:322][652]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2022.11.10-06.03.45:322][652]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2022.11.10-06.03.45:322][652]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2022.11.10-06.03.45:322][652]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2022.11.10-06.03.45:322][652]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2022.11.10-06.03.45:322][652]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2022.11.10-06.03.45:322][652]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2022.11.10-06.03.45:322][652]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2022.11.10-06.03.45:322][652]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2022.11.10-06.03.45:353][652]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2022.11.10-06.03.45:353][652]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2022.11.10-06.03.45:353][652]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2022.11.10-06.03.45:353][652]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2022.11.10-06.03.45:353][652]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2022.11.10-06.03.45:353][652]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2022.11.10-06.03.45:353][652]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2022.11.10-06.03.45:353][652]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2022.11.10-06.03.45:354][652]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2022.11.10-06.03.45:354][652]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2022.11.10-06.03.45:354][652]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2022.11.10-06.03.45:354][652]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2022.11.10-06.03.45:354][652]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2022.11.10-06.03.45:354][652]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2022.11.10-06.03.45:354][652]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2022.11.10-06.03.45:354][652]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2022.11.10-06.03.45:354][652]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2022.11.10-06.03.45:354][652]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2022.11.10-06.03.45:354][652]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2022.11.10-06.03.45:354][652]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2022.11.10-06.03.45:355][652]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2022.11.10-06.03.45:355][652]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2022.11.10-06.03.45:355][652]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2022.11.10-06.03.45:355][652]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2022.11.10-06.03.45:355][652]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2022.11.10-06.03.45:355][652]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2022.11.10-06.03.45:355][652]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2022.11.10-06.03.45:355][652]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2022.11.10-06.03.45:355][652]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2022.11.10-06.03.45:355][652]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2022.11.10-06.03.45:356][652]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2022.11.10-06.03.45:356][652]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2022.11.10-06.03.45:357][652]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2022.11.10-06.03.45:358][652]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2022.11.10-06.03.45:358][652]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2022.11.10-06.03.45:359][652]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2022.11.10-06.03.45:359][652]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2022.11.10-06.03.45:359][652]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2022.11.10-06.03.45:359][652]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2022.11.10-06.03.45:359][652]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2022.11.10-06.03.45:359][652]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2022.11.10-06.03.45:359][652]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2022.11.10-06.03.45:359][652]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2022.11.10-06.03.45:459][652]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2022.11.10-06.03.45:560][652]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2022.11.10-06.03.45:560][652]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2022.11.10-06.03.45:560][652]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2022.11.10-06.03.45:560][652]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2022.11.10-06.03.45:560][652]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2022.11.10-06.03.45:560][652]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2022.11.10-06.03.45:563][652]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2022.11.10-06.03.45:563][652]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2022.11.10-06.03.45:563][652]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2022.11.10-06.03.45:563][652]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2022.11.10-06.03.45:566][652]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2022.11.10-06.03.45:566][652]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2022.11.10-06.03.45:566][652]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2022.11.10-06.03.45:566][652]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2022.11.10-06.03.45:566][652]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2022.11.10-06.03.45:566][652]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2022.11.10-06.03.45:566][652]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2022.11.10-06.03.45:566][652]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2022.11.10-06.03.45:567][652]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2022.11.10-06.03.45:567][652]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2022.11.10-06.03.45:567][652]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2022.11.10-06.03.45:567][652]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2022.11.10-06.03.45:567][652]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2022.11.10-06.03.45:567][652]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2022.11.10-06.03.45:567][652]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2022.11.10-06.03.45:567][652]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2022.11.10-06.03.45:567][652]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2022.11.10-06.03.45:567][652]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2022.11.10-06.03.45:568][652]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2022.11.10-06.03.45:568][652]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2022.11.10-06.03.45:575][652]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2022.11.10-06.03.45:575][652]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2022.11.10-06.03.45:575][652]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2022.11.10-06.03.45:575][652]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2022.11.10-06.03.45:575][652]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2022.11.10-06.03.45:575][652]LogModuleManager: Shutting down and abandoning module Core (168)
+[2022.11.10-06.03.45:576][652]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2022.11.10-06.03.45:576][652]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2022.11.10-06.03.45:576][652]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2022.11.10-06.03.45:576][652]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2022.11.10-06.03.45:576][652]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2022.11.10-06.03.45:576][652]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2022.11.10-06.03.45:576][652]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2022.11.10-06.03.45:576][652]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2022.11.10-06.03.45:576][652]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2022.11.10-06.03.45:576][652]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2022.11.10-06.03.45:577][652]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2022.11.10-06.03.45:618][652]LogDerivedDataCache: Shutdown
+[2022.11.10-06.03.45:618][652]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2022.11.10-06.03.45:618][652]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2022.11.10-06.03.45:618][652]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2022.11.10-06.03.45:618][652]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2022.11.10-06.03.45:618][652]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2022.11.10-06.03.45:618][652]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2022.11.10-06.03.45:618][652]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2022.11.10-06.03.45:618][652]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2022.11.10-06.03.45:618][652]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2022.11.10-06.03.45:618][652]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2022.11.10-06.03.45:619][652]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2022.11.10-06.03.45:619][652]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2022.11.10-06.03.45:619][652]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2022.11.10-06.03.45:619][652]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2022.11.10-06.03.45:619][652]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2022.11.10-06.03.45:619][652]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2022.11.10-06.03.45:619][652]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2022.11.10-06.03.45:619][652]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2022.11.10-06.03.45:619][652]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2022.11.10-06.03.45:619][652]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2022.11.10-06.03.45:620][652]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2022.11.10-06.03.45:620][652]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2022.11.10-06.03.45:620][652]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2022.11.10-06.03.45:620][652]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2022.11.10-06.03.45:620][652]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2022.11.10-06.03.45:620][652]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2022.11.10-06.03.45:620][652]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2022.11.10-06.03.45:620][652]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2022.11.10-06.03.45:620][652]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2022.11.10-06.03.45:620][652]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2022.11.10-06.03.45:620][652]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2022.11.10-06.03.45:620][652]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2022.11.10-06.03.45:620][652]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2022.11.10-06.03.45:620][652]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2022.11.10-06.03.45:621][652]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2022.11.10-06.03.45:621][652]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2022.11.10-06.03.45:621][652]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2022.11.10-06.03.45:621][652]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2022.11.10-06.03.45:621][652]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2022.11.10-06.03.45:621][652]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2022.11.10-06.03.45:621][652]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2022.11.10-06.03.45:621][652]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2022.11.10-06.03.45:621][652]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2022.11.10-06.03.45:622][652]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2022.11.10-06.03.45:622][652]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2022.11.10-06.03.45:622][652]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2022.11.10-06.03.45:622][652]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2022.11.10-06.03.45:622][652]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2022.11.10-06.03.45:622][652]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2022.11.10-06.03.45:622][652]LogOnline: Display: Unloading online subsystem: NULL
+[2022.11.10-06.03.45:622][652]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2022.11.10-06.03.45:622][652]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2022.11.10-06.03.45:622][652]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.11.10-06.03.45:622][652]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCB3F80DB-45E2-9591-B9C7-13BBD1153F26%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=b6570c5e438d4fb6a2e65a812a875c71%7Cd72d33c051974a0fad240c181fec4aeb%7C893d782e-80dc-4de3-9a84-1c2b7ea5ccde&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2022.11.10-06.03.45:639][652]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2022.11.10-06.03.45:643][652]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2022.11.10-06.03.45:643][652]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2022.11.10-06.03.45:643][652]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2022.11.10-06.03.45:643][652]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2022.11.10-06.03.45:644][652]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2022.11.10-06.03.45:644][652]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2022.11.10-06.03.45:644][652]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2022.11.10-06.03.45:647][652]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2022.11.10-06.03.45:647][652]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2022.11.10-06.03.45:647][652]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2022.11.10-06.03.45:647][652]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2022.11.10-06.03.45:647][652]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2022.11.10-06.03.45:647][652]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2022.11.10-06.03.45:647][652]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2022.11.10-06.03.45:647][652]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2022.11.10-06.03.45:647][652]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2022.11.10-06.03.45:647][652]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2022.11.10-06.03.45:647][652]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2022.11.10-06.03.45:666][652]LogExit: Exiting.
+[2022.11.10-06.03.45:686][652]Log file closed, 11/10/22 15:03:45
