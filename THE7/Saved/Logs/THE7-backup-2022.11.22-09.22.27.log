@@ -1,0 +1,1207 @@
+﻿Log file open, 11/21/22 11:38:35
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: THE7
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1926141905) SRandInit(1926141905).
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.320974
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2022.11.21-02.38.36:524][  0]LogInit: Selected Device Profile: [Windows]
+[2022.11.21-02.38.36:524][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.11.21-02.38.36:553][  0]LogInit: Computer: KBCKUBA
+[2022.11.21-02.38.36:553][  0]LogInit: User: Owner
+[2022.11.21-02.38.36:554][  0]LogInit: CPU Page size=4096, Cores=6
+[2022.11.21-02.38.36:554][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.11.21-02.38.36:554][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2022.11.21-02.38.36:554][  0]LogMemory: Platform Memory Stats for Windows
+[2022.11.21-02.38.36:554][  0]LogMemory: Process Physical Memory: 281.67 MB used, 281.67 MB peak
+[2022.11.21-02.38.36:554][  0]LogMemory: Process Virtual Memory: 280.84 MB used, 280.84 MB peak
+[2022.11.21-02.38.36:554][  0]LogMemory: Physical Memory: 7264.32 MB used,  8965.60 MB free, 16229.92 MB total
+[2022.11.21-02.38.36:554][  0]LogMemory: Virtual Memory: 4805.85 MB used,  8965.60 MB free, 134217728.00 MB total
+[2022.11.21-02.38.36:912][  0]LogInit: Using OS detected language (ja-JP).
+[2022.11.21-02.38.36:912][  0]LogInit: Using OS detected locale (ja-JP).
+[2022.11.21-02.38.36:953][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2022.11.21-02.38.38:992][  0]LogD3D11RHI: D3D11 adapters:
+[2022.11.21-02.38.39:070][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650 with Max-Q Design' (Feature Level 11_0)
+[2022.11.21-02.38.39:070][  0]LogD3D11RHI:       3962/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.11.21-02.38.39:102][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2022.11.21-02.38.39:102][  0]LogD3D11RHI:       128/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2022.11.21-02.38.39:104][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.11.21-02.38.39:104][  0]LogD3D11RHI:       0/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.11.21-02.38.39:104][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.11.21-02.38.39:154][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.11.21-02.38.39:154][  0]LogD3D11RHI:     GPU DeviceId: 0x1f91 (for the marketing name, search the web for "GPU Device Id")
+[2022.11.21-02.38.39:154][  0]LogWindows: EnumDisplayDevices:
+[2022.11.21-02.38.39:154][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2022.11.21-02.38.39:155][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2022.11.21-02.38.39:155][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2022.11.21-02.38.39:155][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2022.11.21-02.38.39:155][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650 with Max-Q Design
+[2022.11.21-02.38.39:155][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2022.11.21-02.38.39:155][  0]LogD3D11RHI:      Driver Date: Unknown
+[2022.11.21-02.38.39:155][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2022.11.21-02.38.39:201][  0]LogD3D11RHI: Async texture creation enabled
+[2022.11.21-02.38.39:212][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.11.21-02.38.39:212][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Intermediate/Shaders/WorkingDirectory/17652/).
+[2022.11.21-02.38.39:213][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/419CD938497B2424CE2F73937CBA2DE3/'.
+[2022.11.21-02.38.39:213][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.11.21-02.38.40:873][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2022.11.21-02.38.40:924][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2022.11.21-02.38.40:976][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2022.11.21-02.38.41:031][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2022.11.21-02.38.41:084][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2022.11.21-02.38.41:136][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2022.11.21-02.38.41:189][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2022.11.21-02.38.41:244][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2022.11.21-02.38.41:292][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2022.11.21-02.38.41:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.11.21-02.38.41:403][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2022.11.21-02.38.41:455][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2022.11.21-02.38.41:506][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2022.11.21-02.38.41:556][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2022.11.21-02.38.41:606][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2022.11.21-02.38.41:707][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2022.11.21-02.38.41:707][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2022.11.21-02.38.41:749][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2022.11.21-02.38.41:844][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2022.11.21-02.38.41:879][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2022.11.21-02.38.41:930][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2022.11.21-02.38.41:982][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2022.11.21-02.38.42:033][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2022.11.21-02.38.42:085][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2022.11.21-02.38.42:085][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.11.21-02.38.42:687][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.11.21-02.38.42:756][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/Owner/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2022.11.21-02.38.42:756][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2022.11.21-02.38.42:756][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Owner/Documents/UE4_RPG/THE7/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.11.21-02.38.42:756][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.11.21-02.38.42:756][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Owner/Documents/UE4_RPG/THE7/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.11.21-02.38.42:756][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.11.21-02.38.42:774][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.11.21-02.38.42:787][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.11.21-02.38.42:795][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2022.11.21-02.38.42:795][  0]LogSlate: Using Freetype 2.6.0
+[2022.11.21-02.38.42:804][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.11.21-02.38.42:804][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.11.21-02.38.43:062][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2022.11.21-02.38.43:171][  0]LogInit: Selected Device Profile: [Windows]
+[2022.11.21-02.38.43:312][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2022.11.21-02.38.43:664][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2022.11.21-02.38.43:710][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2022.11.21-02.38.43:710][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.11.21-02.38.43:710][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2022.11.21-02.38.43:710][  0]LogMeshReduction: No automatic mesh merging module available
+[2022.11.21-02.38.43:710][  0]LogMeshMerging: No automatic mesh merging module available
+[2022.11.21-02.38.44:042][  0]LogNetVersion: THE7 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 151110352)
+[2022.11.21-02.38.44:270][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.053770 seconds
+[2022.11.21-02.38.44:275][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2022.11.21-02.38.44:275][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2022.11.21-02.38.44:275][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.11.21-02.38.44:345][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2022.11.21-02.38.47:184][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.11.21-02.38.47:227][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.11.21-02.38.47:925][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2022.11.21-02.38.48:364][  0]SourceControl: ソースコントロールは無効です
+[2022.11.21-02.38.48:364][  0]SourceControl: ソースコントロールは無効です
+[2022.11.21-02.38.48:417][  0]SourceControl: ソースコントロールは無効です
+[2022.11.21-02.38.48:469][  0]SourceControl: ソースコントロールは無効です
+[2022.11.21-02.38.49:121][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.11.21-02.38.49:390][  0]LogOcInput: OculusInput pre-init called
+[2022.11.21-02.38.49:669][  0]LogEngine: Initializing Engine...
+[2022.11.21-02.38.49:670][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.11.21-02.38.49:859][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2022.11.21-02.38.49:859][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2022.11.21-02.38.49:998][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.11.21-02.38.50:140][  0]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.11.21-02.38.50:288][  0]LogInit: FAudioDevice initialized.
+[2022.11.21-02.38.50:349][  0]LogDerivedDataCache: Saved boot cache 0.06s 93MB C:/Users/Owner/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2022.11.21-02.38.50:360][  0]LogInit: Texture streaming: Enabled
+[2022.11.21-02.38.50:487][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.11.21-02.38.50:722][  0]LogInit: Transaction tracking system initialized
+[2022.11.21-02.38.51:056][  0]BlueprintLog: New page: エディタの読み込み
+[2022.11.21-02.38.52:034][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2022.11.21-02.38.52:581][  0]LogLinker: Warning: ファイル '/Game/ThirdPersonBP/ThirdPersonOverview' が見つかりません
+[2022.11.21-02.38.52:582][  0]LogLinker: Warning: ファイル '/Game/ThirdPersonBP/ThirdPersonOverview' が見つかりません
+[2022.11.21-02.38.52:582][  0]LogUObjectGlobals: Warning: オブジェクト 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C' が見つかりませんでした
+[2022.11.21-02.38.52:768][  0]LogConsoleResponse: Display: 
+[2022.11.21-02.38.52:953][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.11.21-02.38.52:953][  0]LogCook: Display: Mobile HDR setting 1
+[2022.11.21-02.38.52:953][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2022.11.21-02.38.54:032][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/UE4_RPG/THE7/Content/' took 0.02s
+[2022.11.21-02.38.54:081][  0]SourceControl: ソースコントロールは無効です
+[2022.11.21-02.38.54:081][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.21-02.38.54:081][  0]LightingResults: New page: ライティングのビルド
+[2022.11.21-02.38.54:126][  0]MapCheck: New page: マップをチェック
+[2022.11.21-02.38.54:126][  0]LightingResults: New page: <何も選択されていません>
+[2022.11.21-02.38.54:212][  0]LogLinker: Warning: ファイル '/Game/StarterContent/Maps/Minimal_Default_BuiltData' が見つかりません
+[2022.11.21-02.38.54:212][  0]LogLinker: Warning: ../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Content/StarterContent/Maps/Minimal_Default.umap のロード中にアセット '/Game/StarterContent/Maps/Minimal_Default_BuiltData'  のファイルが見つかりません
+[2022.11.21-02.38.54:212][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : アセットのファイルが見つかりません /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2022.11.21-02.38.54:253][  0]LogLinker: Warning: ファイル '/Game/StarterContent/Maps/Minimal_Default_BuiltData' が見つかりません
+[2022.11.21-02.38.54:253][  0]LogLinker: Warning: ../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Content/StarterContent/Maps/Minimal_Default.umap のロード中にアセット '/Game/StarterContent/Maps/Minimal_Default_BuiltData'  のファイルが見つかりません
+[2022.11.21-02.38.54:253][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : アセットのファイルが見つかりません /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2022.11.21-02.38.54:276][  0]LogLinker: Warning: ファイル '/Game/StarterContent/Maps/Minimal_Default_BuiltData' が見つかりません
+[2022.11.21-02.38.54:276][  0]LogLinker: Warning: NULL のロード中にアセット '/Game/StarterContent/Maps/Minimal_Default_BuiltData'  のファイルが見つかりません
+[2022.11.21-02.38.54:276][  0]LogLinker: Warning: ファイル '/Game/StarterContent/Maps/Minimal_Default_BuiltData' が見つかりません
+[2022.11.21-02.38.54:276][  0]LogLinker: Warning: NULL のロード中にアセット '/Game/StarterContent/Maps/Minimal_Default_BuiltData'  のファイルが見つかりません
+[2022.11.21-02.38.54:283][  0]LogLinker: Warning: ファイル '/Game/StarterContent/Maps/Minimal_Default_BuiltData' が見つかりません
+[2022.11.21-02.38.54:283][  0]LoadErrors: ロードに失敗しました /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData 参照元 PersistentLevel
+[2022.11.21-02.38.54:283][  0]LogLinker: Warning: NULL のロード中にアセット '/Game/StarterContent/Maps/Minimal_Default_BuiltData'  のファイルが見つかりません
+[2022.11.21-02.38.54:283][  0]LoadErrors: ロードに失敗しました /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData 参照元 PersistentLevel
+[2022.11.21-02.38.54:421][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2022.11.21-02.38.54:427][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.21-02.38.54:440][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.21-02.38.54:499][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 58.546ミリ秒かかりました。
+[2022.11.21-02.38.54:499][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.418
+[2022.11.21-02.38.54:635][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2022.11.21-02.38.54:754][  0]LogCollectionManager: Loaded 0 collections in 0.001512 seconds
+[2022.11.21-02.38.54:838][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/UE4_RPG/THE7/Saved/Collections/' took 0.01s
+[2022.11.21-02.38.54:839][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/UE4_RPG/THE7/Content/Developers/Owner/Collections/' took 0.01s
+[2022.11.21-02.38.54:839][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/UE4_RPG/THE7/Content/Collections/' took 0.01s
+[2022.11.21-02.38.54:839][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2022.11.21-02.38.54:846][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2386 classes and 500 folders.
+[2022.11.21-02.38.54:914][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.11.21-02.38.55:106][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.11.21-02.38.55:152][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2022.11.21-02.38.55:179][  0]LogSlate: Took 0.006011 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.21-02.38.55:187][  0]LogSlate: Took 0.006699 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.11.21-02.38.55:193][  0]LogSlate: Took 0.004075 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.11.21-02.38.55:199][  0]LogSlate: Took 0.004501 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.11.21-02.38.55:274][  0]LogRenderer: Reallocating scene render targets to support 848x428 Format 10 NumSamples 1 (Frame:1).
+[2022.11.21-02.38.55:469][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2022.11.21-02.38.55:469][  0]LogLoad: (Engine Initialization) Total time: 21.56 seconds
+[2022.11.21-02.38.55:469][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.11.21-02.38.55:469][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2022.11.21-02.38.55:513][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.11.21-02.38.55:642][  1]LogRenderer: Reallocating scene render targets to support 848x440 Format 10 NumSamples 1 (Frame:3).
+[2022.11.21-02.38.55:654][  1]LogAssetRegistry: Asset discovery search completed in 12.6139 seconds
+[2022.11.21-02.38.55:656][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2022.11.21-02.38.55:656][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
+[2022.11.21-02.38.59:639][236]LogSlate: Took 0.003678 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2022.11.21-02.39.04:178][508]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2022.11.21-02.39.04:464][508]LogAIModule: Creating AISystem for world Game_Main
+[2022.11.21-02.39.04:486][508]Cmd: MAP LOAD FILE="../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Content/Map/Game_Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.21-02.39.04:486][508]LightingResults: New page: ライティングのビルド
+[2022.11.21-02.39.04:487][508]LoadErrors: New page: マップをロード中: Game_Main.umap
+[2022.11.21-02.39.04:488][508]MapCheck: New page: マップをチェック
+[2022.11.21-02.39.04:488][508]LightingResults: New page: <何も選択されていません>
+[2022.11.21-02.39.04:502][508]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/Floor1) is flushing async loading
+[2022.11.21-02.39.04:616][508]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/Floor3) is flushing async loading
+[2022.11.21-02.39.04:665][508]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/Floor4) is flushing async loading
+[2022.11.21-02.39.04:741][508]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/Floor5) is flushing async loading
+[2022.11.21-02.39.04:991][508]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.21-02.39.05:026][508]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.21-02.39.05:095][508]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 69.747ミリ秒かかりました。
+[2022.11.21-02.39.05:097][508]LogFileHelpers: Loading map 'Game_Main' took 0.612
+[2022.11.21-02.39.05:101][508]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.21-02.39.05:671][539]LogTemp: Repeating last play command: 選択ビューポート
+[2022.11.21-02.39.05:778][539]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Game_Main.Game_Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main' with GeneratedClass '/Game/Map/Game_Main.Game_Main_C' with ClassGeneratedBy '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main'
+[2022.11.21-02.39.05:778][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.21-02.39.05:779][539]PIE: New page: PIEセッション: Game_Main (2022/11/21 20:39:05)
+[2022.11.21-02.39.05:780][539]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Game_Main
+[2022.11.21-02.39.05:781][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001351s)
+[2022.11.21-02.39.05:782][539]LogAIModule: Creating AISystem for world Game_Main
+[2022.11.21-02.39.05:782][539]LogPlayLevel: PIE: World Init took: (0.000498s)
+[2022.11.21-02.39.05:782][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Game_Main.Game_Main to /Game/Map/UEDPIE_0_Game_Main.Game_Main (0.002534s)
+[2022.11.21-02.39.05:809][539]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.11.21-02.39.05:842][539]LogInit: FAudioDevice initialized.
+[2022.11.21-02.39.05:882][539]LogLoad: Game class is 'BP_Award_GameMode_C'
+[2022.11.21-02.39.05:885][539]LogWorld: Bringing World /Game/Map/UEDPIE_0_Game_Main.Game_Main up for play (max tick rate 60) at 2022.11.21-11.39.05
+[2022.11.21-02.39.05:885][539]LogWorld: Bringing up level for play took: 0.001229
+[2022.11.21-02.39.05:886][539]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.11.21-02.39.05:941][539]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2022.11.21-02.39.05:943][539]LogLevel: Warning: Failed to find streaming level object associated with 'Stage1'
+[2022.11.21-02.39.05:950][539]PIE: /Game/Map/UEDPIE_0_Game_Main 0.952のプレイ イン エディタの開始時間
+[2022.11.21-02.39.05:950][539]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Game_Main.Game_Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main' with GeneratedClass '/Game/Map/Game_Main.Game_Main_C' with ClassGeneratedBy '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main'
+[2022.11.21-02.39.05:953][539]LogAudio: Warning: Detected orphaned looping sound 'bgm'.
+[2022.11.21-02.39.08:735][704]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.11.21-02.39.10:103][786]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Game_Main.Game_Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main' with GeneratedClass '/Game/Map/Game_Main.Game_Main_C' with ClassGeneratedBy '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main'
+[2022.11.21-02.39.10:134][786]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Game_Main.Game_Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main' with GeneratedClass '/Game/Map/Game_Main.Game_Main_C' with ClassGeneratedBy '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main'
+[2022.11.21-02.39.10:191][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch10.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:191][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch11.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:191][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch12.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:191][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch13_2275.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:191][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch14.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch15.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch16_2650.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch17.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch18.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch19.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch2.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch20.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch21.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch22.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch23.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch24.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch25.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch26.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch27.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch28.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch29.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch3.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch30.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch31.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch32.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch33.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch34.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch35.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch36.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch37.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch38.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch4.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch5.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch6.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch7_2262.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch8.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:192][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch9.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch_2276.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch124.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch133.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch134.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch135.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch136.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch137.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch39.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch40.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch41.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch42.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch43.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch44.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch45.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch46.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch47.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch48.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch49.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch50.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch51.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch52.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch53.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch54.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch55.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch56.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch57.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch58.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch59.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch60.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch61.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:193][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch62.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch63.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch64.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch65.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch66.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch67.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch68.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch69.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch70.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch71.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch72.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch73.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch74.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch75.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch76.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch77.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch78.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch79.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch80.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch81.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch82.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch83.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch84.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch100.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch101.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch102.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch103.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch104.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch105.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch106.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch107.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch108.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch109.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch110.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch111.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch112.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch113.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:194][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch114.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch115.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch116.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch117.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch118.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch119.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch120.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch121.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch122.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch123.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch124.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch125.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch126.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch127.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch128.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch129.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch130.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch131.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch132.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch133.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch134.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch135.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch136.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch137.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch138_3122.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch139.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch140.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch141.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch142.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch143.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch144.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch145.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch146.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch147.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch148.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch149.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch150.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch151.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch152.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch153.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch154.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch155.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch156.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch157.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch158.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch159.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch160.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch161.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch85.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch86.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch87.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch88.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch89.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch90.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:195][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch91.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:196][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch92.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:196][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch93.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:196][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch94.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:196][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch95.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:196][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch96.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:196][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch97.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:196][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch98.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.10:196][786]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch99.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.12:138][900]Cmd: MAP LOAD FILE="../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Content/Map/Floor3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.21-02.39.12:138][900]LightingResults: New page: ライティングのビルド
+[2022.11.21-02.39.12:139][900]LoadErrors: New page: マップをロード中: Floor3.umap
+[2022.11.21-02.39.12:148][900]MapCheck: New page: マップをチェック
+[2022.11.21-02.39.12:148][900]LightingResults: New page: <何も選択されていません>
+[2022.11.21-02.39.12:169][900]LogAIModule: Creating AISystem for world Floor3
+[2022.11.21-02.39.12:216][900]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.21-02.39.12:242][900]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.21-02.39.12:311][900]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 69.297ミリ秒かかりました。
+[2022.11.21-02.39.12:312][900]LogFileHelpers: Loading map 'Floor3' took 0.174
+[2022.11.21-02.39.13:790][988]LogTemp: Repeating last play command: 選択ビューポート
+[2022.11.21-02.39.13:801][988]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.21-02.39.13:801][988]PIE: New page: PIEセッション: Floor3 (2022/11/21 20:39:13)
+[2022.11.21-02.39.13:802][988]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Floor3
+[2022.11.21-02.39.13:818][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016851s)
+[2022.11.21-02.39.13:819][988]LogAIModule: Creating AISystem for world Floor3
+[2022.11.21-02.39.13:820][988]LogPlayLevel: PIE: World Init took: (0.001021s)
+[2022.11.21-02.39.13:820][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Floor3.Floor3 to /Game/Map/UEDPIE_0_Floor3.Floor3 (0.018317s)
+[2022.11.21-02.39.13:844][988]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.11.21-02.39.13:878][988]LogInit: FAudioDevice initialized.
+[2022.11.21-02.39.13:907][988]LogLoad: Game class is 'BP_Award_GameMode_C'
+[2022.11.21-02.39.13:917][988]LogWorld: Bringing World /Game/Map/UEDPIE_0_Floor3.Floor3 up for play (max tick rate 60) at 2022.11.21-11.39.13
+[2022.11.21-02.39.13:918][988]LogWorld: Bringing up level for play took: 0.009483
+[2022.11.21-02.39.13:919][988]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.11.21-02.39.13:920][988]LogLevel: Warning: Failed to find streaming level object associated with 'Stage1'
+[2022.11.21-02.39.13:922][988]PIE: /Game/Map/UEDPIE_0_Floor3 0.925のプレイ イン エディタの開始時間
+[2022.11.21-02.39.13:931][988]LogAudio: Warning: Detected orphaned looping sound 'bgm'.
+[2022.11.21-02.39.16:949][169]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.11.21-02.39.18:781][273]Cmd: SELECT NONE
+[2022.11.21-02.39.35:283][262]LogAIModule: Creating AISystem for world Main
+[2022.11.21-02.39.35:297][262]Cmd: MAP LOAD FILE="../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Content/Map/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.21-02.39.35:298][262]LightingResults: New page: ライティングのビルド
+[2022.11.21-02.39.35:298][262]LoadErrors: New page: マップをロード中: Main.umap
+[2022.11.21-02.39.35:301][262]MapCheck: New page: マップをチェック
+[2022.11.21-02.39.35:301][262]LightingResults: New page: <何も選択されていません>
+[2022.11.21-02.39.35:316][262]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/Stage1) is flushing async loading
+[2022.11.21-02.39.35:518][262]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/Stage2) is flushing async loading
+[2022.11.21-02.39.35:533][262]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/Stage3) is flushing async loading
+[2022.11.21-02.39.35:548][262]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.21-02.39.35:573][262]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.21-02.39.35:650][262]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 76.541ミリ秒かかりました。
+[2022.11.21-02.39.35:650][262]LogFileHelpers: Loading map 'Main' took 0.352
+[2022.11.21-02.39.37:160][352]LogTemp: Repeating last play command: 選択ビューポート
+[2022.11.21-02.39.37:170][352]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2022.11.21-02.39.37:170][352]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.21-02.39.37:170][352]PIE: New page: PIEセッション: Main (2022/11/21 20:39:37)
+[2022.11.21-02.39.37:171][352]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2022.11.21-02.39.37:172][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001365s)
+[2022.11.21-02.39.37:172][352]LogAIModule: Creating AISystem for world Main
+[2022.11.21-02.39.37:172][352]LogPlayLevel: PIE: World Init took: (0.000490s)
+[2022.11.21-02.39.37:173][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002127s)
+[2022.11.21-02.39.37:196][352]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.11.21-02.39.37:228][352]LogInit: FAudioDevice initialized.
+[2022.11.21-02.39.37:261][352]LogLoad: Game class is 'BP_Award_GameMode_C'
+[2022.11.21-02.39.37:263][352]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.11.21-11.39.37
+[2022.11.21-02.39.37:263][352]LogWorld: Bringing up level for play took: 0.000684
+[2022.11.21-02.39.37:263][352]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.11.21-02.39.37:264][352]LogLevel: ActivateLevel /Game/Map/UEDPIE_0_Stage1 1 1 1
+[2022.11.21-02.39.37:266][352]PIE: /Game/Map/UEDPIE_0_Main 0.268のプレイ イン エディタの開始時間
+[2022.11.21-02.39.37:266][352]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2022.11.21-02.39.37:279][352]LogAudio: Warning: Detected orphaned looping sound 'bgm'.
+[2022.11.21-02.39.40:465][543]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2022.11.21-02.39.40:495][543]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2022.11.21-02.39.41:501][602]LogAIModule: Creating AISystem for world Game_Main
+[2022.11.21-02.39.42:221][644]Cmd: MAP LOAD FILE="../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Content/Map/Game_Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.21-02.39.42:221][644]LightingResults: New page: ライティングのビルド
+[2022.11.21-02.39.42:221][644]LoadErrors: New page: マップをロード中: Game_Main.umap
+[2022.11.21-02.39.42:224][644]MapCheck: New page: マップをチェック
+[2022.11.21-02.39.42:224][644]LightingResults: New page: <何も選択されていません>
+[2022.11.21-02.39.42:238][644]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/Floor1) is flushing async loading
+[2022.11.21-02.39.42:265][644]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/Floor3) is flushing async loading
+[2022.11.21-02.39.42:311][644]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/Floor4) is flushing async loading
+[2022.11.21-02.39.42:376][644]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/Floor5) is flushing async loading
+[2022.11.21-02.39.42:604][644]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.21-02.39.42:639][644]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.21-02.39.42:715][644]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 75.794ミリ秒かかりました。
+[2022.11.21-02.39.42:715][644]LogFileHelpers: Loading map 'Game_Main' took 0.495
+[2022.11.21-02.39.44:264][734]LogTemp: Repeating last play command: 選択ビューポート
+[2022.11.21-02.39.44:280][734]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Game_Main.Game_Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main' with GeneratedClass '/Game/Map/Game_Main.Game_Main_C' with ClassGeneratedBy '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main'
+[2022.11.21-02.39.44:280][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.21-02.39.44:280][734]PIE: New page: PIEセッション: Game_Main (2022/11/21 20:39:44)
+[2022.11.21-02.39.44:281][734]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Game_Main
+[2022.11.21-02.39.44:282][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001391s)
+[2022.11.21-02.39.44:283][734]LogAIModule: Creating AISystem for world Game_Main
+[2022.11.21-02.39.44:283][734]LogPlayLevel: PIE: World Init took: (0.000507s)
+[2022.11.21-02.39.44:283][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Game_Main.Game_Main to /Game/Map/UEDPIE_0_Game_Main.Game_Main (0.002319s)
+[2022.11.21-02.39.44:310][734]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.11.21-02.39.44:343][734]LogInit: FAudioDevice initialized.
+[2022.11.21-02.39.44:376][734]LogLoad: Game class is 'BP_Award_GameMode_C'
+[2022.11.21-02.39.44:378][734]LogWorld: Bringing World /Game/Map/UEDPIE_0_Game_Main.Game_Main up for play (max tick rate 60) at 2022.11.21-11.39.44
+[2022.11.21-02.39.44:378][734]LogWorld: Bringing up level for play took: 0.001071
+[2022.11.21-02.39.44:379][734]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.11.21-02.39.44:380][734]LogLevel: Warning: Failed to find streaming level object associated with 'Stage1'
+[2022.11.21-02.39.44:383][734]PIE: /Game/Map/UEDPIE_0_Game_Main -0.615のプレイ イン エディタの開始時間
+[2022.11.21-02.39.44:384][734]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Game_Main.Game_Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main' with GeneratedClass '/Game/Map/Game_Main.Game_Main_C' with ClassGeneratedBy '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main'
+[2022.11.21-02.39.44:402][734]LogAudio: Warning: Detected orphaned looping sound 'bgm'.
+[2022.11.21-02.39.47:165][900]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.11.21-02.39.47:699][932]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Game_Main.Game_Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main' with GeneratedClass '/Game/Map/Game_Main.Game_Main_C' with ClassGeneratedBy '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main'
+[2022.11.21-02.39.47:732][932]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Game_Main.Game_Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main' with GeneratedClass '/Game/Map/Game_Main.Game_Main_C' with ClassGeneratedBy '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main'
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch110.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch109.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch108.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch107.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch106.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch105.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch104.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch103.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch102.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch101.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch100.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch84.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch83.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch82.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch81.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch80.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch79.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch78.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch77.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch76.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch75.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch74.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:772][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch73.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch72.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch71.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch70.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch69.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch68.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch67.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch66.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch65.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch64.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch63.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch62.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch61.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch60.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch38.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch37.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch36.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch35.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch34.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch57.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch56.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch55.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:773][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch54.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:774][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch53.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:774][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch33.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:774][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch32.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:774][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch31.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:774][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch30.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:774][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch3.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:774][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch29.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:774][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch99.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:774][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch98.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:774][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch97.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:774][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch96.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:774][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch95.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:774][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch94.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:774][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch93.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:774][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch92.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:774][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch91.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:774][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch90.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:775][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch89.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:775][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch88.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:775][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch87.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:775][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch86.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:775][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch85.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:775][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch161.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:775][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch160.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:775][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch159.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:775][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch158.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:775][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch157.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:775][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch156.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:775][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch155.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:775][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch154.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:775][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch153.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:775][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch152.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch151.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch150.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch149.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch148.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch147.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch146.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch145.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch144.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch143.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch142.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch141.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch140.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch139.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch138_3122.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch137.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch136.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch135.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch134.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch133.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch132.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch131.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:776][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch130.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch129.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch128.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch127.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch126.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch125.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch124.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch123.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch122.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch121.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch120.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch119.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch118.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch117.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch116.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch115.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch114.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch113.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch112.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor4.Floor4:PersistentLevel.BP_Torch111.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch52.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch51.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch50.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch49.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch48.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch47.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch28.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch27.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch26.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch25.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch24.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch23.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch22.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch21.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch20.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch2.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch19.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch18.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch17.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch16_2650.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch15.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch14.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch13_2275.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch12.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch11.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:777][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch10.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch46.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch45.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch44.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch43.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch42.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch41.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch40.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch39.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch137.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch136.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch135.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch134.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch133.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch124.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch_2276.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch9.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch8.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch7_2262.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch6.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch5.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor1.Floor1:PersistentLevel.BP_Torch4.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch59.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.47:778][932]LogActorComponent: ReregisterComponent: (/Game/Map/Floor3.Floor3:PersistentLevel.BP_Torch58.Audio) Not currently registered. Aborting.
+[2022.11.21-02.39.50:894][117]Cmd: MAP LOAD FILE="../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Content/Map/Floor5.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.21-02.39.50:895][117]LightingResults: New page: ライティングのビルド
+[2022.11.21-02.39.50:895][117]LoadErrors: New page: マップをロード中: Floor5.umap
+[2022.11.21-02.39.50:905][117]MapCheck: New page: マップをチェック
+[2022.11.21-02.39.50:905][117]LightingResults: New page: <何も選択されていません>
+[2022.11.21-02.39.50:925][117]LogAIModule: Creating AISystem for world Floor5
+[2022.11.21-02.39.51:016][117]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.21-02.39.51:053][117]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.21-02.39.51:126][117]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 73.822ミリ秒かかりました。
+[2022.11.21-02.39.51:127][117]LogFileHelpers: Loading map 'Floor5' took 0.233
+[2022.11.21-02.39.52:301][186]LogTemp: Repeating last play command: 選択ビューポート
+[2022.11.21-02.39.52:313][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.21-02.39.52:314][186]PIE: New page: PIEセッション: Floor5 (2022/11/21 20:39:52)
+[2022.11.21-02.39.52:314][186]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Floor5
+[2022.11.21-02.39.52:361][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047839s)
+[2022.11.21-02.39.52:362][186]LogAIModule: Creating AISystem for world Floor5
+[2022.11.21-02.39.52:362][186]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2022.11.21-02.39.52:362][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Floor5.Floor5 to /Game/Map/UEDPIE_0_Floor5.Floor5 (0.048941s)
+[2022.11.21-02.39.52:389][186]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.11.21-02.39.52:422][186]LogInit: FAudioDevice initialized.
+[2022.11.21-02.39.52:455][186]LogLoad: Game class is 'BP_Award_GameMode_C'
+[2022.11.21-02.39.52:484][186]LogWorld: Bringing World /Game/Map/UEDPIE_0_Floor5.Floor5 up for play (max tick rate 60) at 2022.11.21-11.39.52
+[2022.11.21-02.39.52:486][186]LogWorld: Bringing up level for play took: 0.029733
+[2022.11.21-02.39.52:488][186]LogLevel: Warning: Failed to find streaming level object associated with 'Stage1'
+[2022.11.21-02.39.52:490][186]PIE: /Game/Map/UEDPIE_0_Floor5 -0.507のプレイ イン エディタの開始時間
+[2022.11.21-02.39.52:511][186]LogAudio: Warning: Detected orphaned looping sound 'bgm'.
+[2022.11.21-02.40.02:994][804]LogLinker: Warning: ファイル '/Game/Map/End_BuiltData' が見つかりません
+[2022.11.21-02.40.02:994][804]LogLinker: Warning: ../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Content/Map/End.umap のロード中にアセット '/Game/Map/End_BuiltData'  のファイルが見つかりません
+[2022.11.21-02.40.02:994][804]LoadErrors: Error: /Game/Map/End : アセットのファイルが見つかりません /Game/Map/End_BuiltData
+[2022.11.21-02.40.03:012][804]LogLinker: Warning: ファイル '/Game/Map/End_BuiltData' が見つかりません
+[2022.11.21-02.40.03:013][804]LogLinker: Warning: ../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Content/Map/End.umap のロード中にアセット '/Game/Map/End_BuiltData'  のファイルが見つかりません
+[2022.11.21-02.40.03:044][804]LogLinker: Warning: ファイル '/Game/Map/End_BuiltData' が見つかりません
+[2022.11.21-02.40.03:044][804]LogLinker: Warning: NULL のロード中にアセット '/Game/Map/End_BuiltData'  のファイルが見つかりません
+[2022.11.21-02.40.03:045][804]LogLinker: Warning: ファイル '/Game/Map/End_BuiltData' が見つかりません
+[2022.11.21-02.40.03:045][804]LogLinker: Warning: NULL のロード中にアセット '/Game/Map/End_BuiltData'  のファイルが見つかりません
+[2022.11.21-02.40.03:063][804]LogLinker: Warning: ファイル '/Game/Map/End_BuiltData' が見つかりません
+[2022.11.21-02.40.03:063][804]LoadErrors: ロードに失敗しました /Game/Map/End_BuiltData.End_BuiltData 参照元 PersistentLevel
+[2022.11.21-02.40.03:064][804]LogLinker: Warning: NULL のロード中にアセット '/Game/Map/End_BuiltData'  のファイルが見つかりません
+[2022.11.21-02.40.03:117][804]LogAIModule: Creating AISystem for world End
+[2022.11.21-02.40.03:119][804]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Game/Map/End.End:PersistentLevel.BPAward_1354.CharacterMesh0.BP_Anim_Award_C_0
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2022.11.21-02.40.03:119][804]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Game/Map/End.End:PersistentLevel.BPAward_1354.CharacterMesh0.BP_Anim_Award_C_0
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2022.11.21-02.40.03:142][804]Cmd: MAP LOAD FILE="../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Content/Map/End.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.21-02.40.03:142][804]LightingResults: New page: ライティングのビルド
+[2022.11.21-02.40.03:142][804]LoadErrors: New page: マップをロード中: End.umap
+[2022.11.21-02.40.03:150][804]MapCheck: New page: マップをチェック
+[2022.11.21-02.40.03:151][804]LightingResults: New page: <何も選択されていません>
+[2022.11.21-02.40.03:170][804]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Game/Map/End.End:PersistentLevel.BPAward_1354.CharacterMesh0.BP_Anim_Award_C_0
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2022.11.21-02.40.03:170][804]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Game/Map/End.End:PersistentLevel.BPAward_1354.CharacterMesh0.BP_Anim_Award_C_0
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2022.11.21-02.40.03:178][804]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.21-02.40.03:202][804]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.21-02.40.03:279][804]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 75.871ミリ秒かかりました。
+[2022.11.21-02.40.03:279][804]LogFileHelpers: Loading map 'End' took 0.137
+[2022.11.21-02.40.04:855][898]LogTemp: Repeating last play command: 選択ビューポート
+[2022.11.21-02.40.04:864][898]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/End.End:PersistentLevel' has LevelScriptBlueprint '/Game/Map/End.End:PersistentLevel.End' with GeneratedClass '/Game/Map/End.End_C' with ClassGeneratedBy '/Game/Map/End.End:PersistentLevel.End'
+[2022.11.21-02.40.04:864][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.21-02.40.04:864][898]PIE: New page: PIEセッション: End (2022/11/21 20:40:04)
+[2022.11.21-02.40.04:865][898]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_End
+[2022.11.21-02.40.04:871][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005588s)
+[2022.11.21-02.40.04:872][898]LogAIModule: Creating AISystem for world End
+[2022.11.21-02.40.04:872][898]LogPlayLevel: PIE: World Init took: (0.000497s)
+[2022.11.21-02.40.04:872][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/End.End to /Game/Map/UEDPIE_0_End.End (0.006532s)
+[2022.11.21-02.40.04:898][898]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.11.21-02.40.04:932][898]LogInit: FAudioDevice initialized.
+[2022.11.21-02.40.04:961][898]LogLoad: Game class is 'BP_Award_GameMode_C'
+[2022.11.21-02.40.04:965][898]LogWorld: Bringing World /Game/Map/UEDPIE_0_End.End up for play (max tick rate 60) at 2022.11.21-11.40.04
+[2022.11.21-02.40.04:965][898]LogWorld: Bringing up level for play took: 0.002468
+[2022.11.21-02.40.04:966][898]LogLevel: Warning: Failed to find streaming level object associated with 'Stage1'
+[2022.11.21-02.40.04:970][898]PIE: /Game/Map/UEDPIE_0_End -0.028のプレイ イン エディタの開始時間
+[2022.11.21-02.40.04:970][898]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/End.End:PersistentLevel' has LevelScriptBlueprint '/Game/Map/End.End:PersistentLevel.End' with GeneratedClass '/Game/Map/End.End_C' with ClassGeneratedBy '/Game/Map/End.End:PersistentLevel.End'
+[2022.11.21-02.40.04:974][898]LogAudio: Warning: Detected orphaned looping sound 'bgm'.
+[2022.11.21-02.40.13:749][406]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 113 classes and 0 folders.
+[2022.11.21-02.40.14:355][406]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2022.11.21-02.40.14:359][406]LogSlate: Took 0.004276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.11.21-02.40.21:532][835]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/End.End:PersistentLevel' has LevelScriptBlueprint '/Game/Map/End.End:PersistentLevel.End' with GeneratedClass '/Game/Map/End.End_C' with ClassGeneratedBy '/Game/Map/End.End:PersistentLevel.End'
+[2022.11.21-02.40.21:564][835]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/End.End:PersistentLevel' has LevelScriptBlueprint '/Game/Map/End.End:PersistentLevel.End' with GeneratedClass '/Game/Map/End.End_C' with ClassGeneratedBy '/Game/Map/End.End:PersistentLevel.End'
+[2022.11.21-02.50.54:567][178]LogTemp: Repeating last play command: 選択ビューポート
+[2022.11.21-02.50.54:583][178]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/End.End:PersistentLevel' has LevelScriptBlueprint '/Game/Map/End.End:PersistentLevel.End' with GeneratedClass '/Game/Map/End.End_C' with ClassGeneratedBy '/Game/Map/End.End:PersistentLevel.End'
+[2022.11.21-02.50.54:583][178]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.21-02.50.54:583][178]PIE: New page: PIEセッション: End (2022/11/21 20:50:54)
+[2022.11.21-02.50.54:584][178]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_End
+[2022.11.21-02.50.54:590][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006219s)
+[2022.11.21-02.50.54:591][178]LogAIModule: Creating AISystem for world End
+[2022.11.21-02.50.54:591][178]LogPlayLevel: PIE: World Init took: (0.000636s)
+[2022.11.21-02.50.54:591][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/End.End to /Game/Map/UEDPIE_0_End.End (0.007161s)
+[2022.11.21-02.50.54:622][178]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.11.21-02.50.54:655][178]LogInit: FAudioDevice initialized.
+[2022.11.21-02.50.54:696][178]LogLoad: Game class is 'BP_Award_GameMode_C'
+[2022.11.21-02.50.54:699][178]LogWorld: Bringing World /Game/Map/UEDPIE_0_End.End up for play (max tick rate 60) at 2022.11.21-11.50.54
+[2022.11.21-02.50.54:700][178]LogWorld: Bringing up level for play took: 0.002799
+[2022.11.21-02.50.54:700][178]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.11.21-02.50.54:701][178]LogLevel: Warning: Failed to find streaming level object associated with 'Stage1'
+[2022.11.21-02.50.54:705][178]PIE: /Game/Map/UEDPIE_0_End -0.293のプレイ イン エディタの開始時間
+[2022.11.21-02.50.54:706][178]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/End.End:PersistentLevel' has LevelScriptBlueprint '/Game/Map/End.End:PersistentLevel.End' with GeneratedClass '/Game/Map/End.End_C' with ClassGeneratedBy '/Game/Map/End.End:PersistentLevel.End'
+[2022.11.21-02.50.54:708][178]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2022.11.21-02.50.54:708][178]LogAudio: Warning: Detected orphaned looping sound 'bgm'.
+[2022.11.21-02.51.00:059][494]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.11.21-02.51.04:184][741]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/End.End:PersistentLevel' has LevelScriptBlueprint '/Game/Map/End.End:PersistentLevel.End' with GeneratedClass '/Game/Map/End.End_C' with ClassGeneratedBy '/Game/Map/End.End:PersistentLevel.End'
+[2022.11.21-02.51.04:218][741]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/End.End:PersistentLevel' has LevelScriptBlueprint '/Game/Map/End.End:PersistentLevel.End' with GeneratedClass '/Game/Map/End.End_C' with ClassGeneratedBy '/Game/Map/End.End:PersistentLevel.End'
+[2022.11.21-02.51.13:387][287]LogAIModule: Creating AISystem for world Floor1
+[2022.11.21-02.51.13:433][287]Cmd: MAP LOAD FILE="../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Content/Map/Floor1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.21-02.51.13:433][287]LightingResults: New page: ライティングのビルド
+[2022.11.21-02.51.13:434][287]LoadErrors: New page: マップをロード中: Floor1.umap
+[2022.11.21-02.51.13:435][287]MapCheck: New page: マップをチェック
+[2022.11.21-02.51.13:435][287]LightingResults: New page: <何も選択されていません>
+[2022.11.21-02.51.13:481][287]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.21-02.51.13:512][287]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.21-02.51.13:591][287]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 79.198ミリ秒かかりました。
+[2022.11.21-02.51.13:591][287]LogFileHelpers: Loading map 'Floor1' took 0.159
+[2022.11.21-02.51.15:285][388]LogTemp: Repeating last play command: 選択ビューポート
+[2022.11.21-02.51.15:296][388]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.21-02.51.15:296][388]PIE: New page: PIEセッション: Floor1 (2022/11/21 20:51:15)
+[2022.11.21-02.51.15:297][388]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Floor1
+[2022.11.21-02.51.15:307][388]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009903s)
+[2022.11.21-02.51.15:307][388]LogAIModule: Creating AISystem for world Floor1
+[2022.11.21-02.51.15:308][388]LogPlayLevel: PIE: World Init took: (0.000515s)
+[2022.11.21-02.51.15:308][388]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Floor1.Floor1 to /Game/Map/UEDPIE_0_Floor1.Floor1 (0.010829s)
+[2022.11.21-02.51.15:339][388]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.11.21-02.51.15:373][388]LogInit: FAudioDevice initialized.
+[2022.11.21-02.51.15:401][388]LogLoad: Game class is 'BP_Award_GameMode_C'
+[2022.11.21-02.51.15:408][388]LogWorld: Bringing World /Game/Map/UEDPIE_0_Floor1.Floor1 up for play (max tick rate 60) at 2022.11.21-11.51.15
+[2022.11.21-02.51.15:409][388]LogWorld: Bringing up level for play took: 0.007054
+[2022.11.21-02.51.15:411][388]LogLevel: Warning: Failed to find streaming level object associated with 'Stage1'
+[2022.11.21-02.51.15:413][388]PIE: /Game/Map/UEDPIE_0_Floor1 0.416のプレイ イン エディタの開始時間
+[2022.11.21-02.51.15:417][388]LogAudio: Warning: Detected orphaned looping sound 'bgm'.
+[2022.11.21-02.51.34:664][535]LogTemp: Repeating last play command: 選択ビューポート
+[2022.11.21-02.51.34:675][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.21-02.51.34:676][535]PIE: New page: PIEセッション: Floor1 (2022/11/21 20:51:34)
+[2022.11.21-02.51.34:676][535]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Floor1
+[2022.11.21-02.51.34:686][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009358s)
+[2022.11.21-02.51.34:686][535]LogAIModule: Creating AISystem for world Floor1
+[2022.11.21-02.51.34:686][535]LogPlayLevel: PIE: World Init took: (0.000550s)
+[2022.11.21-02.51.34:687][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Floor1.Floor1 to /Game/Map/UEDPIE_0_Floor1.Floor1 (0.010243s)
+[2022.11.21-02.51.34:717][535]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.11.21-02.51.34:750][535]LogInit: FAudioDevice initialized.
+[2022.11.21-02.51.34:790][535]LogLoad: Game class is 'BP_Award_GameMode_C'
+[2022.11.21-02.51.34:796][535]LogWorld: Bringing World /Game/Map/UEDPIE_0_Floor1.Floor1 up for play (max tick rate 60) at 2022.11.21-11.51.34
+[2022.11.21-02.51.34:796][535]LogWorld: Bringing up level for play took: 0.005690
+[2022.11.21-02.51.34:798][535]LogLevel: Warning: Failed to find streaming level object associated with 'Stage1'
+[2022.11.21-02.51.34:801][535]PIE: /Game/Map/UEDPIE_0_Floor1 -0.196のプレイ イン エディタの開始時間
+[2022.11.21-02.51.34:803][535]LogAudio: Warning: Detected orphaned looping sound 'bgm'.
+[2022.11.21-03.01.31:073][330]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Floor1' took 0.036
+[2022.11.21-03.01.31:080][330]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/PlayerStatus] ([1] browsable assets)...
+[2022.11.21-03.01.31:080][330]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/PlayerStatus]
+[2022.11.21-03.01.31:080][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PlayerStatus" FILE="../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Saved/Autosaves/Game/UI/PlayerStatus_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.11.21-03.01.31:104][330]LogSavePackage: Save=11.45ms
+[2022.11.21-03.01.31:104][330]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Saved/PlayerStatus_Auto152F2C0954FC1B99AB2FAD480FE0442FE.tmp' to '../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Saved/Autosaves/Game/UI/PlayerStatus_Auto1.uasset'
+[2022.11.21-03.01.31:106][330]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Saved/Autosaves/Game/UI/PlayerStatus_Auto1.uasset
+[2022.11.21-03.01.31:106][330]LogFileHelpers: Auto-saving content packages took 0.030
+[2022.11.21-03.04.38:086][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PlayerStatus" FILE="../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Content/UI/PlayerStatus.uasset" SILENT=true
+[2022.11.21-03.04.38:104][ 12]LogSavePackage: Save=11.10ms
+[2022.11.21-03.04.38:105][ 12]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Saved/PlayerStatus75015F1741D6DB02467827A7F8E50282.tmp' to '../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Content/UI/PlayerStatus.uasset'
+[2022.11.21-03.04.38:109][ 12]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Content/UI/PlayerStatus.uasset
+[2022.11.21-03.04.45:293][354]Cmd: QUIT_EDITOR
+[2022.11.21-03.04.46:369][354]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2022.11.21-03.04.46:408][354]LogExit: Preparing to exit.
+[2022.11.21-03.04.47:135][354]LogDirectoryWatcher: A directory notification for 'C:/Users/Owner/Documents/UE4_RPG/THE7/Content/' was aborted.
+[2022.11.21-03.04.47:180][354]LogExit: Editor shut down
+[2022.11.21-03.04.47:184][354]LogExit: Transaction tracking system shut down
+[2022.11.21-03.04.47:319][354]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2022.11.21-03.04.47:319][354]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Owner/Documents/UE4_RPG/THE7/Content/' was aborted.
+[2022.11.21-03.04.47:320][354]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2022.11.21-03.04.47:320][354]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2022.11.21-03.04.47:320][354]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2022.11.21-03.04.47:392][354]LogExit: Object subsystem successfully closed.
+[2022.11.21-03.04.47:419][354]LogD3D11RHI: Shutdown
+[2022.11.21-03.04.47:419][354]LogD3D11RHI: CleanupD3DDevice
+[2022.11.21-03.04.47:552][354]LogD3D11RHI: ~FD3D11DynamicRHI
+[2022.11.21-03.04.47:573][354]LogModuleManager: Shutting down and abandoning module SequencerWidgets (538)
+[2022.11.21-03.04.47:573][354]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2022.11.21-03.04.47:573][354]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2022.11.21-03.04.47:573][354]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2022.11.21-03.04.47:573][354]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2022.11.21-03.04.47:573][354]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2022.11.21-03.04.47:573][354]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2022.11.21-03.04.47:573][354]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2022.11.21-03.04.47:574][354]LogDirectoryWatcher: A directory notification for 'C:/Users/Owner/Documents/UE4_RPG/THE7/Content/Collections/' was aborted.
+[2022.11.21-03.04.47:574][354]LogDirectoryWatcher: A directory notification for 'C:/Users/Owner/Documents/UE4_RPG/THE7/Content/Developers/Owner/Collections/' was aborted.
+[2022.11.21-03.04.47:574][354]LogDirectoryWatcher: A directory notification for 'C:/Users/Owner/Documents/UE4_RPG/THE7/Saved/Collections/' was aborted.
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module Media (477)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2022.11.21-03.04.47:574][354]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2022.11.21-03.04.47:575][354]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2022.11.21-03.04.47:575][354]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2022.11.21-03.04.47:575][354]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2022.11.21-03.04.47:575][354]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2022.11.21-03.04.47:575][354]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2022.11.21-03.04.47:575][354]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2022.11.21-03.04.48:301][354]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2022.11.21-03.04.48:301][354]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2022.11.21-03.04.48:301][354]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2022.11.21-03.04.48:302][354]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2022.11.21-03.04.48:302][354]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2022.11.21-03.04.48:302][354]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2022.11.21-03.04.48:302][354]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2022.11.21-03.04.48:302][354]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2022.11.21-03.04.48:302][354]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2022.11.21-03.04.48:302][354]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2022.11.21-03.04.48:302][354]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2022.11.21-03.04.48:302][354]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2022.11.21-03.04.48:303][354]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2022.11.21-03.04.48:303][354]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2022.11.21-03.04.48:303][354]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2022.11.21-03.04.48:303][354]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2022.11.21-03.04.48:303][354]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2022.11.21-03.04.48:304][354]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2022.11.21-03.04.48:304][354]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2022.11.21-03.04.48:304][354]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2022.11.21-03.04.48:304][354]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2022.11.21-03.04.48:304][354]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2022.11.21-03.04.48:304][354]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2022.11.21-03.04.48:304][354]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2022.11.21-03.04.48:359][354]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2022.11.21-03.04.48:359][354]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2022.11.21-03.04.48:359][354]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2022.11.21-03.04.48:359][354]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2022.11.21-03.04.48:359][354]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2022.11.21-03.04.48:359][354]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2022.11.21-03.04.48:359][354]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2022.11.21-03.04.48:360][354]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2022.11.21-03.04.48:360][354]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2022.11.21-03.04.48:360][354]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2022.11.21-03.04.48:373][354]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2022.11.21-03.04.48:373][354]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2022.11.21-03.04.48:373][354]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2022.11.21-03.04.48:374][354]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2022.11.21-03.04.48:374][354]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2022.11.21-03.04.48:374][354]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2022.11.21-03.04.48:374][354]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2022.11.21-03.04.48:374][354]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2022.11.21-03.04.48:374][354]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2022.11.21-03.04.48:374][354]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2022.11.21-03.04.48:374][354]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2022.11.21-03.04.48:374][354]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2022.11.21-03.04.48:374][354]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2022.11.21-03.04.48:374][354]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2022.11.21-03.04.48:374][354]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2022.11.21-03.04.48:374][354]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2022.11.21-03.04.48:374][354]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2022.11.21-03.04.48:374][354]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2022.11.21-03.04.48:374][354]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2022.11.21-03.04.48:374][354]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2022.11.21-03.04.48:375][354]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2022.11.21-03.04.48:426][354]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2022.11.21-03.04.48:426][354]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2022.11.21-03.04.48:426][354]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2022.11.21-03.04.48:426][354]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2022.11.21-03.04.48:426][354]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2022.11.21-03.04.48:426][354]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2022.11.21-03.04.48:426][354]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2022.11.21-03.04.48:426][354]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2022.11.21-03.04.48:426][354]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2022.11.21-03.04.48:426][354]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2022.11.21-03.04.48:426][354]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2022.11.21-03.04.48:426][354]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2022.11.21-03.04.48:426][354]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2022.11.21-03.04.48:427][354]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2022.11.21-03.04.48:427][354]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2022.11.21-03.04.48:427][354]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2022.11.21-03.04.48:427][354]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2022.11.21-03.04.48:427][354]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2022.11.21-03.04.48:427][354]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2022.11.21-03.04.48:427][354]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2022.11.21-03.04.48:427][354]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2022.11.21-03.04.48:429][354]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2022.11.21-03.04.48:429][354]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2022.11.21-03.04.48:429][354]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2022.11.21-03.04.48:429][354]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2022.11.21-03.04.48:429][354]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2022.11.21-03.04.48:429][354]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2022.11.21-03.04.48:429][354]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2022.11.21-03.04.48:430][354]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2022.11.21-03.04.48:430][354]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2022.11.21-03.04.48:430][354]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2022.11.21-03.04.48:430][354]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2022.11.21-03.04.48:433][354]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2022.11.21-03.04.48:433][354]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2022.11.21-03.04.48:433][354]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2022.11.21-03.04.48:434][354]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2022.11.21-03.04.48:434][354]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2022.11.21-03.04.48:434][354]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2022.11.21-03.04.48:434][354]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2022.11.21-03.04.48:434][354]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2022.11.21-03.04.48:434][354]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2022.11.21-03.04.48:434][354]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2022.11.21-03.04.48:434][354]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2022.11.21-03.04.48:536][354]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2022.11.21-03.04.48:637][354]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2022.11.21-03.04.48:637][354]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2022.11.21-03.04.48:637][354]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2022.11.21-03.04.48:637][354]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2022.11.21-03.04.48:637][354]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2022.11.21-03.04.48:637][354]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2022.11.21-03.04.48:637][354]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2022.11.21-03.04.48:637][354]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2022.11.21-03.04.48:637][354]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2022.11.21-03.04.48:637][354]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2022.11.21-03.04.48:638][354]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2022.11.21-03.04.48:638][354]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2022.11.21-03.04.48:638][354]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2022.11.21-03.04.48:638][354]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2022.11.21-03.04.48:638][354]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2022.11.21-03.04.48:639][354]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2022.11.21-03.04.48:639][354]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2022.11.21-03.04.48:639][354]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2022.11.21-03.04.48:639][354]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2022.11.21-03.04.48:639][354]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2022.11.21-03.04.48:639][354]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2022.11.21-03.04.48:639][354]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2022.11.21-03.04.48:639][354]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2022.11.21-03.04.48:639][354]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2022.11.21-03.04.48:639][354]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2022.11.21-03.04.48:639][354]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2022.11.21-03.04.48:639][354]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2022.11.21-03.04.48:639][354]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2022.11.21-03.04.48:639][354]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2022.11.21-03.04.48:639][354]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2022.11.21-03.04.48:641][354]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2022.11.21-03.04.48:641][354]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2022.11.21-03.04.48:641][354]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2022.11.21-03.04.48:641][354]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2022.11.21-03.04.48:641][354]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2022.11.21-03.04.48:641][354]LogModuleManager: Shutting down and abandoning module Core (168)
+[2022.11.21-03.04.48:641][354]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2022.11.21-03.04.48:641][354]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2022.11.21-03.04.48:641][354]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2022.11.21-03.04.48:641][354]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2022.11.21-03.04.48:641][354]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2022.11.21-03.04.48:641][354]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2022.11.21-03.04.48:641][354]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2022.11.21-03.04.48:641][354]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2022.11.21-03.04.48:641][354]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2022.11.21-03.04.48:641][354]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2022.11.21-03.04.48:642][354]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2022.11.21-03.04.48:724][354]LogDerivedDataCache: Shutdown
+[2022.11.21-03.04.48:724][354]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2022.11.21-03.04.48:724][354]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2022.11.21-03.04.48:724][354]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2022.11.21-03.04.48:725][354]LogOnline: Display: Unloading online subsystem: NULL
+[2022.11.21-03.04.48:725][354]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2022.11.21-03.04.48:726][354]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2022.11.21-03.04.48:726][354]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.11.21-03.04.48:726][354]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAD9A51EC-4952-0991-FDB8-82B15EE10C38%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=0eccd2d64fa59f4243532f884f6d57e6%7C27082e73835547bcb02cb42b8f4d4fe6%7Ca84fe853-153c-4e38-b590-f7273bbdb729&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2022.11.21-03.04.48:757][354]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2022.11.21-03.04.48:758][354]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2022.11.21-03.04.48:758][354]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2022.11.21-03.04.48:758][354]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2022.11.21-03.04.48:758][354]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2022.11.21-03.04.48:758][354]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2022.11.21-03.04.48:758][354]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2022.11.21-03.04.48:758][354]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2022.11.21-03.04.48:760][354]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2022.11.21-03.04.48:760][354]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2022.11.21-03.04.48:760][354]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2022.11.21-03.04.48:760][354]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2022.11.21-03.04.48:760][354]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2022.11.21-03.04.48:760][354]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2022.11.21-03.04.48:760][354]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2022.11.21-03.04.48:760][354]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2022.11.21-03.04.48:760][354]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2022.11.21-03.04.48:760][354]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2022.11.21-03.04.48:760][354]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2022.11.21-03.04.48:764][354]LogExit: Exiting.
+[2022.11.21-03.04.48:771][354]Log file closed, 11/21/22 12:04:48
