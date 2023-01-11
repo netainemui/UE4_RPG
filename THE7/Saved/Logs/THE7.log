@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 01/11/23 11:44:57
+=======
+﻿Log file open, 01/11/23 10:23:30
+>>>>>>> Asuma
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +13,15 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: THE7
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogInit: Display: RandInit(-882644432) SRandInit(-882644432).
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.353231
+=======
+LogInit: Display: RandInit(782842272) SRandInit(782842273).
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.333332
+>>>>>>> Asuma
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -113,6 +123,7 @@ LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binari
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2023.01.11-02.44.59:556][  0]LogInit: Selected Device Profile: [Windows]
 [2023.01.11-02.44.59:556][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2023.01.11-02.44.59:579][  0]LogInit: Computer: KBC12006064
@@ -621,3 +632,1365 @@ LogInit: Object subsystem initialized
 [2023.01.11-03.09.27:666][259]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2023.01.11-03.09.27:672][259]LogExit: Exiting.
 [2023.01.11-03.09.27:685][259]Log file closed, 01/11/23 12:09:27
+=======
+[2023.01.11-01.23.30:957][  0]LogInit: Selected Device Profile: [Windows]
+[2023.01.11-01.23.30:957][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.01.11-01.23.30:986][  0]LogInit: Computer: KBC12006137
+[2023.01.11-01.23.30:986][  0]LogInit: User: kbc12006137
+[2023.01.11-01.23.30:986][  0]LogInit: CPU Page size=4096, Cores=6
+[2023.01.11-01.23.30:986][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.01.11-01.23.30:986][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2023.01.11-01.23.30:986][  0]LogMemory: Platform Memory Stats for Windows
+[2023.01.11-01.23.30:986][  0]LogMemory: Process Physical Memory: 283.69 MB used, 283.70 MB peak
+[2023.01.11-01.23.30:986][  0]LogMemory: Process Virtual Memory: 281.79 MB used, 281.79 MB peak
+[2023.01.11-01.23.30:986][  0]LogMemory: Physical Memory: 7229.17 MB used,  9000.75 MB free, 16229.92 MB total
+[2023.01.11-01.23.30:986][  0]LogMemory: Virtual Memory: 4801.37 MB used,  9000.75 MB free, 134217728.00 MB total
+[2023.01.11-01.23.31:402][  0]LogInit: Using OS detected language (ja-JP).
+[2023.01.11-01.23.31:402][  0]LogInit: Using OS detected locale (ja-JP).
+[2023.01.11-01.23.31:513][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2023.01.11-01.23.32:843][  0]LogD3D11RHI: D3D11 adapters:
+[2023.01.11-01.23.32:921][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650 with Max-Q Design' (Feature Level 11_0)
+[2023.01.11-01.23.32:921][  0]LogD3D11RHI:       3962/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2023.01.11-01.23.32:964][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2023.01.11-01.23.32:964][  0]LogD3D11RHI:       128/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2023.01.11-01.23.32:966][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.01.11-01.23.32:966][  0]LogD3D11RHI:       0/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.01.11-01.23.32:966][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.01.11-01.23.32:989][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.01.11-01.23.32:989][  0]LogD3D11RHI:     GPU DeviceId: 0x1f91 (for the marketing name, search the web for "GPU Device Id")
+[2023.01.11-01.23.32:989][  0]LogWindows: EnumDisplayDevices:
+[2023.01.11-01.23.32:990][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2023.01.11-01.23.32:990][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2023.01.11-01.23.32:990][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2023.01.11-01.23.32:990][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2023.01.11-01.23.32:990][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650 with Max-Q Design
+[2023.01.11-01.23.32:990][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2023.01.11-01.23.32:990][  0]LogD3D11RHI:      Driver Date: Unknown
+[2023.01.11-01.23.32:990][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2023.01.11-01.23.33:046][  0]LogD3D11RHI: Async texture creation enabled
+[2023.01.11-01.23.33:057][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.01.11-01.23.33:058][  0]LogShaderCompilers: Guid format shader working directory is 36 characters bigger than the processId version (D:/UE4_RPG/THE7/Intermediate/Shaders/WorkingDirectory/21972/).
+[2023.01.11-01.23.33:058][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kbc12006137/AppData/Local/Temp/UnrealShaderWorkingDir/66AF60AF4E7F94FAD621DD83F233AFE6/'.
+[2023.01.11-01.23.33:058][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.01.11-01.23.34:068][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2023.01.11-01.23.34:139][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2023.01.11-01.23.34:208][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2023.01.11-01.23.34:279][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2023.01.11-01.23.34:354][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2023.01.11-01.23.34:423][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2023.01.11-01.23.34:492][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2023.01.11-01.23.34:562][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2023.01.11-01.23.34:627][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2023.01.11-01.23.34:703][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.01.11-01.23.34:772][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2023.01.11-01.23.34:841][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2023.01.11-01.23.34:909][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2023.01.11-01.23.34:975][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2023.01.11-01.23.35:043][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2023.01.11-01.23.35:179][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2023.01.11-01.23.35:179][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2023.01.11-01.23.35:243][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2023.01.11-01.23.35:372][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2023.01.11-01.23.35:413][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2023.01.11-01.23.35:485][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2023.01.11-01.23.35:556][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2023.01.11-01.23.35:629][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2023.01.11-01.23.35:704][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2023.01.11-01.23.35:704][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.01.11-01.23.37:586][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.01.11-01.23.37:746][  0]LogDerivedDataCache: Loaded boot cache 0.16s 93MB C:/Users/kbc12006137/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.01.11-01.23.37:746][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kbc12006137/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2023.01.11-01.23.37:746][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UE4_RPG/THE7/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.01.11-01.23.37:746][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.01.11-01.23.37:746][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UE4_RPG/THE7/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.01.11-01.23.37:746][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.01.11-01.23.37:762][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.01.11-01.23.37:775][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kbc12006137/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.01.11-01.23.37:783][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.01.11-01.23.37:784][  0]LogSlate: Using Freetype 2.6.0
+[2023.01.11-01.23.37:791][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.01.11-01.23.37:791][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.01.11-01.23.38:233][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2023.01.11-01.23.38:353][  0]LogInit: Selected Device Profile: [Windows]
+[2023.01.11-01.23.38:536][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2023.01.11-01.23.38:977][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2023.01.11-01.23.39:041][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2023.01.11-01.23.39:041][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.01.11-01.23.39:041][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2023.01.11-01.23.39:041][  0]LogMeshReduction: No automatic mesh merging module available
+[2023.01.11-01.23.39:041][  0]LogMeshMerging: No automatic mesh merging module available
+[2023.01.11-01.23.39:393][  0]LogNetVersion: THE7 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 151110352)
+[2023.01.11-01.23.40:134][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.537726 seconds
+[2023.01.11-01.23.40:142][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2023.01.11-01.23.40:142][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2023.01.11-01.23.40:142][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.01.11-01.23.40:258][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2023.01.11-01.23.43:930][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.01.11-01.23.43:984][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.01.11-01.23.44:874][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2023.01.11-01.23.45:427][  0]SourceControl: ソースコントロールは無効です
+[2023.01.11-01.23.45:427][  0]SourceControl: ソースコントロールは無効です
+[2023.01.11-01.23.45:497][  0]SourceControl: ソースコントロールは無効です
+[2023.01.11-01.23.45:566][  0]SourceControl: ソースコントロールは無効です
+[2023.01.11-01.23.46:429][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.01.11-01.23.46:772][  0]LogOcInput: OculusInput pre-init called
+[2023.01.11-01.23.47:130][  0]LogEngine: Initializing Engine...
+[2023.01.11-01.23.47:137][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.01.11-01.23.47:382][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2023.01.11-01.23.47:382][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2023.01.11-01.23.47:573][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.01.11-01.23.47:649][  0]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.01.11-01.23.47:830][  0]LogInit: FAudioDevice initialized.
+[2023.01.11-01.23.47:876][  0]LogDerivedDataCache: Saved boot cache 0.05s 93MB C:/Users/kbc12006137/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.01.11-01.23.47:885][  0]LogInit: Texture streaming: Enabled
+[2023.01.11-01.23.48:078][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.01.11-01.23.48:412][  0]LogInit: Transaction tracking system initialized
+[2023.01.11-01.23.48:881][  0]BlueprintLog: New page: エディタの読み込み
+[2023.01.11-01.23.50:269][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2023.01.11-01.23.51:366][  0]LogConsoleResponse: Display: 
+[2023.01.11-01.23.51:580][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.01.11-01.23.51:580][  0]LogCook: Display: Mobile HDR setting 1
+[2023.01.11-01.23.51:580][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2023.01.11-01.23.51:584][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_RPG/THE7/Content/' took 0.02s
+[2023.01.11-01.23.53:202][  0]SourceControl: ソースコントロールは無効です
+[2023.01.11-01.23.53:202][  0]Cmd: MAP LOAD FILE="D:/UE4_RPG/THE7/Content/Map/Game_Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.01.11-01.23.53:202][  0]LightingResults: New page: ライティングのビルド
+[2023.01.11-01.23.53:268][  0]MapCheck: New page: マップをチェック
+[2023.01.11-01.23.53:268][  0]LightingResults: New page: <何も選択されていません>
+[2023.01.11-01.23.54:000][  0]LogAIModule: Creating AISystem for world Game_Main
+[2023.01.11-01.23.54:004][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/Floor1) is flushing async loading
+[2023.01.11-01.23.54:415][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/Floor3) is flushing async loading
+[2023.01.11-01.23.54:596][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/Floor4) is flushing async loading
+[2023.01.11-01.23.54:740][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/Floor5) is flushing async loading
+[2023.01.11-01.23.55:032][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.01.11-01.23.55:093][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.01.11-01.23.55:158][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 64.478ミリ秒かかりました。
+[2023.01.11-01.23.55:158][  0]LogFileHelpers: Loading map 'Game_Main' took 1.957
+[2023.01.11-01.23.55:237][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2023.01.11-01.23.55:344][  0]LogCollectionManager: Loaded 0 collections in 0.001429 seconds
+[2023.01.11-01.23.55:447][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_RPG/THE7/Saved/Collections/' took 0.01s
+[2023.01.11-01.23.55:447][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_RPG/THE7/Content/Developers/kbc12006137/Collections/' took 0.01s
+[2023.01.11-01.23.55:447][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_RPG/THE7/Content/Collections/' took 0.01s
+[2023.01.11-01.23.55:447][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2023.01.11-01.23.55:455][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2386 classes and 500 folders.
+[2023.01.11-01.23.55:561][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2023.01.11-01.23.55:677][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2023.01.11-01.23.55:746][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2023.01.11-01.23.55:821][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2023.01.11-01.23.55:884][  0]LogSlate: Took 0.001014 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.01.11-01.23.55:896][  0]LogSlate: Took 0.011466 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.01.11-01.23.55:897][  0]LogSlate: Took 0.000803 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.01.11-01.23.55:900][  0]LogSlate: Took 0.001005 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.01.11-01.23.55:981][  0]LogRenderer: Reallocating scene render targets to support 836x436 Format 10 NumSamples 1 (Frame:1).
+[2023.01.11-01.23.56:237][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2023.01.11-01.23.56:237][  0]LogLoad: (Engine Initialization) Total time: 29.25 seconds
+[2023.01.11-01.23.56:237][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.01.11-01.23.56:237][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2023.01.11-01.23.56:275][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.01.11-01.23.56:324][  0]LogSlate: Took 0.000975 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.01.11-01.23.56:354][  1]LogAssetRegistry: Asset discovery search completed in 18.1441 seconds
+[2023.01.11-01.23.56:356][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2023.01.11-01.23.56:356][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2023.01.11-01.23.57:319][ 40]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.01.11-01.23.58:839][103]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.01.11-01.23.59:196][103]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 113 classes and 0 folders.
+[2023.01.11-01.24.00:132][103]LogSlate: Took 0.001070 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.01.11-01.24.00:399][104]LogSlate: Took 0.000882 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.01.11-01.24.10:995][637]LogStreaming: Warning: Failed to open ANSI TEXT file D:/UE4_RPG/THE7/Saved/HardwareSurvey/dxdiag.txt
+[2023.01.11-01.24.11:063][638]LogSynthBenchmark: Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
+[2023.01.11-01.24.11:063][638]LogSynthBenchmark: Display: ===============
+[2023.01.11-01.24.11:064][638]LogSynthBenchmark: Display: Main Processor:
+[2023.01.11-01.24.11:233][638]LogSynthBenchmark: Display:          ... 0.017523 s/Run 'RayIntersect'
+[2023.01.11-01.24.11:233][638]LogSynthBenchmark: Display:          ... 0.016291 s/Run 'Fractal'
+[2023.01.11-01.24.11:233][638]LogSynthBenchmark: Display: 
+[2023.01.11-01.24.11:233][638]LogSynthBenchmark: Display:   CompiledTarget_x_Bits: 64
+[2023.01.11-01.24.11:233][638]LogSynthBenchmark: Display:   UE_BUILD_SHIPPING: 0
+[2023.01.11-01.24.11:233][638]LogSynthBenchmark: Display:   UE_BUILD_TEST: 0
+[2023.01.11-01.24.11:233][638]LogSynthBenchmark: Display:   UE_BUILD_DEBUG: 0
+[2023.01.11-01.24.11:233][638]LogSynthBenchmark: Display:   TotalPhysicalGBRam: 16
+[2023.01.11-01.24.11:233][638]LogSynthBenchmark: Display:   NumberOfCores (physical): 6
+[2023.01.11-01.24.11:233][638]LogSynthBenchmark: Display:   NumberOfCores (logical): 12
+[2023.01.11-01.24.11:233][638]LogSynthBenchmark: Display:   CPU Perf Index 0: 146.1 (weight 1.00)
+[2023.01.11-01.24.11:233][638]LogSynthBenchmark: Display:   CPU Perf Index 1: 175.6 (weight 1.50)
+[2023.01.11-01.24.11:233][638]LogSynthBenchmark: Display:  
+[2023.01.11-01.24.11:233][638]LogSynthBenchmark: Display: Graphics:
+[2023.01.11-01.24.11:233][638]LogSynthBenchmark: Display:   Adapter Name: 'NVIDIA GeForce GTX 1650 with Max-Q Design'
+[2023.01.11-01.24.11:233][638]LogSynthBenchmark: Display:   (On Optimus the name might be wrong, memory should be ok)
+[2023.01.11-01.24.11:233][638]LogSynthBenchmark: Display:   Vendor Id: 0x10DE
+[2023.01.11-01.24.11:233][638]LogSynthBenchmark: Display:   Device Id: 0x1F91
+[2023.01.11-01.24.11:233][638]LogSynthBenchmark: Display:   Device Revision: 0xA1
+[2023.01.11-01.24.11:233][638]LogSynthBenchmark: Display:   GPU Memory: 3962/0/8115 MB
+[2023.01.11-01.24.11:516][638]LogSynthBenchmark: Display:   GPU first test: 0.10s
+[2023.01.11-01.24.11:516][638]LogSynthBenchmark: Display:          ... 1.473 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2023.01.11-01.24.11:516][638]LogSynthBenchmark: Display:          ... 0.754 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2023.01.11-01.24.11:516][638]LogSynthBenchmark: Display:          ... 0.657 s/GigaPix, Confidence=89% 'DepTexHeavy' (likely to be very inaccurate)
+[2023.01.11-01.24.11:516][638]LogSynthBenchmark: Display:          ... 3.109 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2023.01.11-01.24.11:516][638]LogSynthBenchmark: Display:          ... 0.071 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2023.01.11-01.24.11:516][638]LogSynthBenchmark: Display:          ... 0.451 s/GigaVert, Confidence=70% 'VertThroughPut1' (likely to be very inaccurate)
+[2023.01.11-01.24.11:516][638]LogSynthBenchmark: Display:          ... 1.826 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:   GPU second test: 0.37s
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:          ... 7.658 s/GigaPix, Confidence=70% 'ALUHeavyNoise' (likely to be inaccurate)
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:          ... 5.301 s/GigaPix, Confidence=70% 'TexHeavy' (likely to be inaccurate)
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:          ... 4.789 s/GigaPix, Confidence=70% 'DepTexHeavy' (likely to be inaccurate)
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:          ... 17.342 s/GigaPix, Confidence=70% 'FillOnly' (likely to be inaccurate)
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:          ... 0.415 s/GigaPix, Confidence=70% 'Bandwidth' (likely to be inaccurate)
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:          ... 1.667 s/GigaVert, Confidence=70% 'VertThroughPut1' (likely to be inaccurate)
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:          ... 7.230 s/GigaVert, Confidence=70% 'VertThroughPut2' (likely to be inaccurate)
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:   GPU Final Results:
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:          ... 7.658 s/GigaPix, Confidence=70% 'ALUHeavyNoise'
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:          ... 5.301 s/GigaPix, Confidence=70% 'TexHeavy'
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:          ... 4.789 s/GigaPix, Confidence=70% 'DepTexHeavy'
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:          ... 17.342 s/GigaPix, Confidence=70% 'FillOnly'
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:          ... 0.415 s/GigaPix, Confidence=70% 'Bandwidth'
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:          ... 1.667 s/GigaVert, Confidence=70% 'VertThroughPut1'
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:          ... 7.230 s/GigaVert, Confidence=70% 'VertThroughPut2'
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display: 
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:   GPU Perf Index 0: 166.4 (weight 1.00)
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:   GPU Perf Index 1: 71.2 (weight 0.10)
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:   GPU Perf Index 2: 124.5 (weight 0.10)
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:   GPU Perf Index 3: 68.1 (weight 3.00)
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:   GPU Perf Index 4: 38.7 (weight 1.00)
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:   GPU Perf Index 5: 108.5 (weight 0.00)
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:   GPU Perf Index 6: 409.2 (weight 0.00)
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:   CPUIndex: 163.8
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:   GPUIndex: 82.5
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display: 
+[2023.01.11-01.24.11:919][638]LogSynthBenchmark: Display:          ... Total Time: 0.855494 sec
+[2023.01.11-01.24.14:302][747]LogEditorViewport: Clicking Background
+[2023.01.11-01.24.29:024][318]LogTemp: Repeating last play command: 選択ビューポート
+[2023.01.11-01.24.29:125][318]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Game_Main.Game_Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main' with GeneratedClass '/Game/Map/Game_Main.Game_Main_C' with ClassGeneratedBy '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main'
+[2023.01.11-01.24.29:125][318]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Floor1.Floor1:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Floor1.Floor1:PersistentLevel.Floor1' with GeneratedClass '/Game/Map/Floor1.Floor1_C' with ClassGeneratedBy '/Game/Map/Floor1.Floor1:PersistentLevel.Floor1'
+[2023.01.11-01.24.29:125][318]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.11-01.24.29:126][318]PIE: New page: PIEセッション: Game_Main (2023/01/11 19:24:29)
+[2023.01.11-01.24.29:127][318]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Game_Main
+[2023.01.11-01.24.29:128][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001379s)
+[2023.01.11-01.24.29:129][318]LogAIModule: Creating AISystem for world Game_Main
+[2023.01.11-01.24.29:129][318]LogPlayLevel: PIE: World Init took: (0.000490s)
+[2023.01.11-01.24.29:129][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Game_Main.Game_Main to /Game/Map/UEDPIE_0_Game_Main.Game_Main (0.002226s)
+[2023.01.11-01.24.29:160][318]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.01.11-01.24.29:195][318]LogInit: FAudioDevice initialized.
+[2023.01.11-01.24.29:237][318]LogLoad: Game class is 'BP_Award_GameMode_C'
+[2023.01.11-01.24.29:239][318]LogWorld: Bringing World /Game/Map/UEDPIE_0_Game_Main.Game_Main up for play (max tick rate 60) at 2023.01.11-10.24.29
+[2023.01.11-01.24.29:239][318]LogWorld: Bringing up level for play took: 0.001204
+[2023.01.11-01.24.29:240][318]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.01.11-01.24.29:307][318]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2023.01.11-01.24.29:309][318]LogLevel: ActivateLevel /Game/Map/UEDPIE_0_Floor1 1 1 1
+[2023.01.11-01.24.29:311][318]PIE: /Game/Map/UEDPIE_0_Game_Main -0.141のプレイ イン エディタの開始時間
+[2023.01.11-01.24.29:311][318]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Game_Main.Game_Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main' with GeneratedClass '/Game/Map/Game_Main.Game_Main_C' with ClassGeneratedBy '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main'
+[2023.01.11-01.24.29:311][318]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Floor1.Floor1:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Floor1.Floor1:PersistentLevel.Floor1' with GeneratedClass '/Game/Map/Floor1.Floor1_C' with ClassGeneratedBy '/Game/Map/Floor1.Floor1:PersistentLevel.Floor1'
+[2023.01.11-01.24.29:329][318]LogAudio: Warning: Detected orphaned looping sound 'bgm'.
+[2023.01.11-01.24.40:185][967]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Game_Main.Game_Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main' with GeneratedClass '/Game/Map/Game_Main.Game_Main_C' with ClassGeneratedBy '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main'
+[2023.01.11-01.24.40:185][967]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Floor1.Floor1:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Floor1.Floor1:PersistentLevel.Floor1' with GeneratedClass '/Game/Map/Floor1.Floor1_C' with ClassGeneratedBy '/Game/Map/Floor1.Floor1:PersistentLevel.Floor1'
+[2023.01.11-01.24.40:222][967]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Game_Main.Game_Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main' with GeneratedClass '/Game/Map/Game_Main.Game_Main_C' with ClassGeneratedBy '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main'
+[2023.01.11-01.24.40:222][967]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Floor1.Floor1:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Floor1.Floor1:PersistentLevel.Floor1' with GeneratedClass '/Game/Map/Floor1.Floor1_C' with ClassGeneratedBy '/Game/Map/Floor1.Floor1:PersistentLevel.Floor1'
+[2023.01.11-01.25.40:497][710]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	BP_Anim_Award_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.BP_Anim_Award_C_0
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:023A
+[2023.01.11-01.25.40:498][710]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.BP_Anim_Award_C_0
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-01.25.40:498][710]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.BP_Anim_Award_C_0
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-01.25.42:837][767]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_1
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-01.25.42:837][767]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_1
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-01.25.59:700][504]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-01.25.59:700][504]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-01.25.59:717][504]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-01.25.59:717][504]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-01.25.59:847][505]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-01.25.59:847][505]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-01.25.59:886][506]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-01.25.59:886][506]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-01.25.59:907][507]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-01.25.59:907][507]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-01.25.59:926][508]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-01.25.59:926][508]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-01.25.59:945][509]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-01.25.59:945][509]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-01.25.59:968][510]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-01.25.59:968][510]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-01.25.59:988][511]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-01.26.04:447][752]LogRenderer: Reallocating scene render targets to support 868x540 Format 10 NumSamples 1 (Frame:1).
+[2023.01.11-01.26.04:468][753]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-01.26.04:469][753]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-01.26.04:488][754]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-01.26.04:488][754]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-01.26.04:507][755]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-01.26.04:507][755]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-01.26.04:526][756]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-01.26.04:526][756]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-01.26.04:545][757]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-01.26.04:545][757]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-01.26.04:563][758]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-01.26.04:563][758]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-01.26.04:581][759]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-01.26.04:581][759]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-01.26.04:599][760]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-01.26.04:599][760]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-01.26.04:617][761]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_2
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-01.55.55:138][496]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Game_Main' took 0.027
+[2023.01.11-01.55.55:139][496]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/BP_Award_GameController] ([1] browsable assets)...
+[2023.01.11-01.55.55:139][496]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_Award_GameController]
+[2023.01.11-01.55.55:140][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Award_GameController" FILE="D:/UE4_RPG/THE7/Saved/Autosaves/Game/BP/BP_Award_GameController_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.01.11-01.55.55:501][496]LogSavePackage: Save=109.31ms
+[2023.01.11-01.55.55:501][496]LogSavePackage: Moving 'D:/UE4_RPG/THE7/Saved/BP_Award_GameController_Auto110C46814440BE2978D2D99BA16ABDA9F.tmp' to 'D:/UE4_RPG/THE7/Saved/Autosaves/Game/BP/BP_Award_GameController_Auto1.uasset'
+[2023.01.11-01.55.55:502][496]LogSavePackage: Display: Finished SavePackage D:/UE4_RPG/THE7/Saved/Autosaves/Game/BP/BP_Award_GameController_Auto1.uasset
+[2023.01.11-01.55.55:502][496]LogFileHelpers: Auto-saving content packages took 0.364
+[2023.01.11-02.00.17:485][313]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_1
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-02.00.17:485][313]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_1
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-02.00.17:486][313]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_1
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-02.00.17:486][313]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_1
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-02.00.37:120][477]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_1
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-02.00.37:120][477]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_1
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-02.00.37:120][477]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_1
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-02.00.37:120][477]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_1
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-02.00.57:456][684]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_1
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-02.00.57:456][684]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_1
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-02.00.57:457][684]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_1
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-02.00.57:457][684]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_1
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-02.01.44:380][316]BlueprintLog: New page: BPAward をコンパイル
+[2023.01.11-02.01.44:471][316]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_3
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-02.01.44:471][316]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_3
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-02.01.44:472][316]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_4
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-02.01.44:472][316]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_4
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-02.01.44:472][316]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_5
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-02.01.44:472][316]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_5
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-02.01.44:473][316]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-02.01.44:473][316]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-02.01.45:188][316]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_4
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-02.01.45:188][316]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_4
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-02.01.45:189][316]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_4
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-02.01.45:189][316]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_4
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-02.01.45:190][316]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-02.01.45:190][316]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-02.01.45:190][316]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-02.01.45:190][316]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-02.01.45:191][316]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_16.CharacterMesh0.BP_Anim_Award_C_7
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-02.01.45:191][316]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_16.CharacterMesh0.BP_Anim_Award_C_7
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-02.03.38:634][524]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.01.11-02.05.56:328][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Floor1" FILE="D:/UE4_RPG/THE7/Saved/Autosaves/Game/Map/Floor1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.01.11-02.05.56:332][966]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: Floor1, Actor: /Game/Map/Floor1.Floor1:PersistentLevel.Floor1_C_1
+[2023.01.11-02.05.56:646][966]LogSavePackage: Save=315.69ms
+[2023.01.11-02.05.56:646][966]LogSavePackage: Moving 'D:/UE4_RPG/THE7/Saved/Floor1_Auto27850E1974E239B9420C3FB908765A503.tmp' to 'D:/UE4_RPG/THE7/Saved/Autosaves/Game/Map/Floor1_Auto2.umap'
+[2023.01.11-02.05.56:647][966]LogSavePackage: Display: Finished SavePackage D:/UE4_RPG/THE7/Saved/Autosaves/Game/Map/Floor1_Auto2.umap
+[2023.01.11-02.05.56:649][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Floor3" FILE="D:/UE4_RPG/THE7/Saved/Autosaves/Game/Map/Floor3_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.01.11-02.05.57:231][966]LogSavePackage: Save=579.06ms
+[2023.01.11-02.05.57:231][966]LogSavePackage: Moving 'D:/UE4_RPG/THE7/Saved/Floor3_Auto22E69301144D6075BA53FA9A9D4D03E68.tmp' to 'D:/UE4_RPG/THE7/Saved/Autosaves/Game/Map/Floor3_Auto2.umap'
+[2023.01.11-02.05.57:232][966]LogSavePackage: Display: Finished SavePackage D:/UE4_RPG/THE7/Saved/Autosaves/Game/Map/Floor3_Auto2.umap
+[2023.01.11-02.05.57:234][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Floor4" FILE="D:/UE4_RPG/THE7/Saved/Autosaves/Game/Map/Floor4_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.01.11-02.05.58:103][966]LogSavePackage: Save=866.02ms
+[2023.01.11-02.05.58:104][966]LogSavePackage: Moving 'D:/UE4_RPG/THE7/Saved/Floor4_Auto2915B8CB645FB97157771189CDF743600.tmp' to 'D:/UE4_RPG/THE7/Saved/Autosaves/Game/Map/Floor4_Auto2.umap'
+[2023.01.11-02.05.58:105][966]LogSavePackage: Display: Finished SavePackage D:/UE4_RPG/THE7/Saved/Autosaves/Game/Map/Floor4_Auto2.umap
+[2023.01.11-02.05.58:107][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Floor5" FILE="D:/UE4_RPG/THE7/Saved/Autosaves/Game/Map/Floor5_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.01.11-02.05.59:858][966]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.01.11-02.05.59:914][966]LogSavePackage: Save=1802.86ms
+[2023.01.11-02.05.59:914][966]LogSavePackage: Moving 'D:/UE4_RPG/THE7/Saved/Floor5_Auto2A8E5E494406B5100FD2C9F9AB3C62681.tmp' to 'D:/UE4_RPG/THE7/Saved/Autosaves/Game/Map/Floor5_Auto2.umap'
+[2023.01.11-02.05.59:916][966]LogSavePackage: Display: Finished SavePackage D:/UE4_RPG/THE7/Saved/Autosaves/Game/Map/Floor5_Auto2.umap
+[2023.01.11-02.05.59:917][966]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Game_Main' took 3.616
+[2023.01.11-02.05.59:917][966]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.616
+[2023.01.11-02.05.59:921][966]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/BP_Award_GameController] ([1] browsable assets)...
+[2023.01.11-02.05.59:921][966]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_Award_GameController]
+[2023.01.11-02.05.59:921][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Award_GameController" FILE="D:/UE4_RPG/THE7/Saved/Autosaves/Game/BP/BP_Award_GameController_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2023.01.11-02.05.59:986][966]LogSavePackage: Save=63.26ms
+[2023.01.11-02.05.59:986][966]LogSavePackage: Moving 'D:/UE4_RPG/THE7/Saved/BP_Award_GameController_Auto28022E1EC4326388E5517E58DC50623C8.tmp' to 'D:/UE4_RPG/THE7/Saved/Autosaves/Game/BP/BP_Award_GameController_Auto2.uasset'
+[2023.01.11-02.05.59:987][966]LogSavePackage: Display: Finished SavePackage D:/UE4_RPG/THE7/Saved/Autosaves/Game/BP/BP_Award_GameController_Auto2.uasset
+[2023.01.11-02.05.59:988][966]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP/BPAward] ([1] browsable assets)...
+[2023.01.11-02.06.00:013][966]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/BPAward.BPAward]
+[2023.01.11-02.06.00:013][966]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BPAward]
+[2023.01.11-02.06.00:013][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BPAward" FILE="D:/UE4_RPG/THE7/Saved/Autosaves/Game/BP/BPAward_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2023.01.11-02.06.00:088][966]LogSavePackage: Save=71.00ms
+[2023.01.11-02.06.00:088][966]LogSavePackage: Moving 'D:/UE4_RPG/THE7/Saved/BPAward_Auto2A30D5E3E4C5EBEF1D5C5A3A0CBC7B838.tmp' to 'D:/UE4_RPG/THE7/Saved/Autosaves/Game/BP/BPAward_Auto2.uasset'
+[2023.01.11-02.06.00:099][966]LogSavePackage: Display: Finished SavePackage D:/UE4_RPG/THE7/Saved/Autosaves/Game/BP/BPAward_Auto2.uasset
+[2023.01.11-02.06.00:099][966]LogFileHelpers: Auto-saving content packages took 0.179
+[2023.01.11-02.23.37:628][268]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.01.11-02.25.24:082][ 62]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Game_Main' took 0.029
+[2023.01.11-02.25.24:083][ 62]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/BP_Award_GameController] ([1] browsable assets)...
+[2023.01.11-02.25.24:083][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_Award_GameController]
+[2023.01.11-02.25.24:083][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Award_GameController" FILE="D:/UE4_RPG/THE7/Saved/Autosaves/Game/BP/BP_Award_GameController_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.01.11-02.25.24:159][ 62]LogSavePackage: Save=73.02ms
+[2023.01.11-02.25.24:159][ 62]LogSavePackage: Moving 'D:/UE4_RPG/THE7/Saved/BP_Award_GameController_Auto3473FC762446D793A82E524B5652FC8DA.tmp' to 'D:/UE4_RPG/THE7/Saved/Autosaves/Game/BP/BP_Award_GameController_Auto3.uasset'
+[2023.01.11-02.25.24:160][ 62]LogSavePackage: Display: Finished SavePackage D:/UE4_RPG/THE7/Saved/Autosaves/Game/BP/BP_Award_GameController_Auto3.uasset
+[2023.01.11-02.25.24:161][ 62]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/BPAward] ([1] browsable assets)...
+[2023.01.11-02.25.24:161][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BPAward]
+[2023.01.11-02.25.24:161][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BPAward" FILE="D:/UE4_RPG/THE7/Saved/Autosaves/Game/BP/BPAward_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.01.11-02.25.24:223][ 62]LogSavePackage: Save=58.95ms
+[2023.01.11-02.25.24:223][ 62]LogSavePackage: Moving 'D:/UE4_RPG/THE7/Saved/BPAward_Auto3BBB714DD4923422A05320D955526B93E.tmp' to 'D:/UE4_RPG/THE7/Saved/Autosaves/Game/BP/BPAward_Auto3.uasset'
+[2023.01.11-02.25.24:224][ 62]LogSavePackage: Display: Finished SavePackage D:/UE4_RPG/THE7/Saved/Autosaves/Game/BP/BPAward_Auto3.uasset
+[2023.01.11-02.25.24:224][ 62]LogFileHelpers: Auto-saving content packages took 0.141
+[2023.01.11-02.58.47:459][423]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Game_Main' took 0.028
+[2023.01.11-02.58.47:460][423]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP/BPAward] ([1] browsable assets)...
+[2023.01.11-02.58.47:471][423]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/BPAward.BPAward]
+[2023.01.11-02.58.47:471][423]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BPAward]
+[2023.01.11-02.58.47:471][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BPAward" FILE="D:/UE4_RPG/THE7/Saved/Autosaves/Game/BP/BPAward_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2023.01.11-02.58.47:537][423]LogSavePackage: Save=63.20ms
+[2023.01.11-02.58.47:538][423]LogSavePackage: Moving 'D:/UE4_RPG/THE7/Saved/BPAward_Auto4CA9743DD49ACE9FE7F67B9BC6527F62A.tmp' to 'D:/UE4_RPG/THE7/Saved/Autosaves/Game/BP/BPAward_Auto4.uasset'
+[2023.01.11-02.58.47:539][423]LogSavePackage: Display: Finished SavePackage D:/UE4_RPG/THE7/Saved/Autosaves/Game/BP/BPAward_Auto4.uasset
+[2023.01.11-02.58.47:539][423]LogFileHelpers: Auto-saving content packages took 0.078
+[2023.01.11-03.03.16:572][420]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.16:572][420]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.03.16:591][422]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.16:591][422]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.03.16:608][423]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.16:608][423]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.03.16:625][424]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.16:625][424]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.03.16:642][425]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.16:642][425]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.03.16:659][426]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.16:659][426]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.03.16:675][427]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.16:676][427]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.03.16:692][428]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.16:692][428]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.03.16:709][429]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.16:709][429]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.03.16:726][430]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.23:615][813]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.23:615][813]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.03.23:616][813]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.23:616][813]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.03.23:617][813]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_16.CharacterMesh0.BP_Anim_Award_C_7
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.23:617][813]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_16.CharacterMesh0.BP_Anim_Award_C_7
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.03.23:617][813]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_16.CharacterMesh0.BP_Anim_Award_C_7
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.23:617][813]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_16.CharacterMesh0.BP_Anim_Award_C_7
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.03.26:702][993]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.26:703][993]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.03.26:704][993]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.26:704][993]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.03.26:704][993]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_16.CharacterMesh0.BP_Anim_Award_C_7
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.26:704][993]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_16.CharacterMesh0.BP_Anim_Award_C_7
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.03.26:705][993]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_16.CharacterMesh0.BP_Anim_Award_C_7
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.26:705][993]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_16.CharacterMesh0.BP_Anim_Award_C_7
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.03.33:462][377]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_6
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.33:463][377]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_16.CharacterMesh0.BP_Anim_Award_C_7
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.33:463][377]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_16.CharacterMesh0.BP_Anim_Award_C_7
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.03.33:463][377]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_16.CharacterMesh0.BP_Anim_Award_C_7
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.33:463][377]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_16.CharacterMesh0.BP_Anim_Award_C_7
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.03.55:502][628]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_16.CharacterMesh0.BP_Anim_Award_C_7
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.03.55:502][628]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_16.CharacterMesh0.BP_Anim_Award_C_7
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.03.55:502][628]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_16.CharacterMesh0.BP_Anim_Award_C_7
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.08.02:771][893]LogEditorTransaction: Undo ノードを移動
+[2023.01.11-03.08.03:022][903]LogEditorTransaction: Undo ノードを移動
+[2023.01.11-03.08.03:304][914]LogEditorTransaction: Undo ノードを移動
+[2023.01.11-03.08.03:578][927]LogEditorTransaction: Undo ノードを移動
+[2023.01.11-03.08.03:837][939]LogEditorTransaction: Undo ノードを追加
+[2023.01.11-03.08.04:119][952]LogEditorTransaction: Undo 選択対象を削除
+[2023.01.11-03.08.04:580][975]LogEditorTransaction: Undo PIEリンクを作成
+[2023.01.11-03.08.05:011][996]LogEditorTransaction: Undo ノードを移動
+[2023.01.11-03.08.05:402][ 16]LogEditorTransaction: Undo ノードを移動
+[2023.01.11-03.08.05:778][ 35]LogEditorTransaction: Undo ノードを追加
+[2023.01.11-03.08.06:081][ 50]LogEditorTransaction: Undo ピンのリンクを切断
+[2023.01.11-03.08.06:979][ 99]LogEditorTransaction: Undo PIEリンクを作成
+[2023.01.11-03.08.07:406][124]LogEditorTransaction: Undo ノードを移動
+[2023.01.11-03.09.44:564][640]LogTemp: Repeating last play command: 選択ビューポート
+[2023.01.11-03.09.44:597][640]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Game_Main.Game_Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main' with GeneratedClass '/Game/Map/Game_Main.Game_Main_C' with ClassGeneratedBy '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main'
+[2023.01.11-03.09.44:597][640]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Floor1.Floor1:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Floor1.Floor1:PersistentLevel.Floor1' with GeneratedClass '/Game/Map/Floor1.Floor1_C' with ClassGeneratedBy '/Game/Map/Floor1.Floor1:PersistentLevel.Floor1'
+[2023.01.11-03.09.44:597][640]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2023.01.11-03.09.44:615][640]LogPlayLevel: [PlayLevel] Compiling BP_Award_GameController before play...
+[2023.01.11-03.09.44:638][640]LogPlayLevel: [PlayLevel]   Compiling BPAward as a dependent...
+[2023.01.11-03.09.44:658][640]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_8
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.09.44:658][640]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_8
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.09.44:665][640]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_9
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.09.44:665][640]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_9
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.09.44:666][640]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.09.44:666][640]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.09.44:897][640]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_8
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.09.44:897][640]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_8
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.09.44:898][640]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_8
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.09.44:898][640]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_8
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.09.44:899][640]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.09.44:899][640]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.09.44:899][640]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.09.44:899][640]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.09.44:932][640]LogPlayLevel: PlayLevel: Blueprint regeneration took 335 ms (2 blueprints)
+[2023.01.11-03.09.44:933][640]PIE: New page: PIEセッション: Game_Main (2023/01/11 21:09:44)
+[2023.01.11-03.09.44:934][640]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Game_Main
+[2023.01.11-03.09.44:936][640]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001828s)
+[2023.01.11-03.09.44:936][640]LogAIModule: Creating AISystem for world Game_Main
+[2023.01.11-03.09.44:936][640]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2023.01.11-03.09.44:937][640]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Game_Main.Game_Main to /Game/Map/UEDPIE_0_Game_Main.Game_Main (0.003104s)
+[2023.01.11-03.09.44:965][640]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.01.11-03.09.45:000][640]LogInit: FAudioDevice initialized.
+[2023.01.11-03.09.45:045][640]LogLoad: Game class is 'BP_Award_GameMode_C'
+[2023.01.11-03.09.45:047][640]LogWorld: Bringing World /Game/Map/UEDPIE_0_Game_Main.Game_Main up for play (max tick rate 60) at 2023.01.11-12.09.45
+[2023.01.11-03.09.45:047][640]LogWorld: Bringing up level for play took: 0.000891
+[2023.01.11-03.09.45:048][640]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.01.11-03.09.45:049][640]LogLevel: ActivateLevel /Game/Map/UEDPIE_0_Floor1 1 1 1
+[2023.01.11-03.09.45:054][640]PIE: /Game/Map/UEDPIE_0_Game_Main -0.398のプレイ イン エディタの開始時間
+[2023.01.11-03.09.45:054][640]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Game_Main.Game_Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main' with GeneratedClass '/Game/Map/Game_Main.Game_Main_C' with ClassGeneratedBy '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main'
+[2023.01.11-03.09.45:055][640]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Floor1.Floor1:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Floor1.Floor1:PersistentLevel.Floor1' with GeneratedClass '/Game/Map/Floor1.Floor1_C' with ClassGeneratedBy '/Game/Map/Floor1.Floor1:PersistentLevel.Floor1'
+[2023.01.11-03.09.45:073][640]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2023.01.11-03.09.45:073][640]LogAudio: Warning: Detected orphaned looping sound 'bgm'.
+[2023.01.11-03.09.50:045][927]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Game_Main.Game_Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main' with GeneratedClass '/Game/Map/Game_Main.Game_Main_C' with ClassGeneratedBy '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main'
+[2023.01.11-03.09.50:045][927]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Floor1.Floor1:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Floor1.Floor1:PersistentLevel.Floor1' with GeneratedClass '/Game/Map/Floor1.Floor1_C' with ClassGeneratedBy '/Game/Map/Floor1.Floor1:PersistentLevel.Floor1'
+[2023.01.11-03.09.50:088][927]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Game_Main.Game_Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main' with GeneratedClass '/Game/Map/Game_Main.Game_Main_C' with ClassGeneratedBy '/Game/Map/Game_Main.Game_Main:PersistentLevel.Game_Main'
+[2023.01.11-03.09.50:088][927]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Floor1.Floor1:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Floor1.Floor1:PersistentLevel.Floor1' with GeneratedClass '/Game/Map/Floor1.Floor1_C' with ClassGeneratedBy '/Game/Map/Floor1.Floor1:PersistentLevel.Floor1'
+[2023.01.11-03.10.09:136][931]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_8
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.10.09:136][931]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_8
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.10.09:136][931]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_8
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.10.09:137][931]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_8
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.10.09:137][931]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.10.09:137][931]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.10.09:138][931]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.10.09:138][931]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.10.12:852][135]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.10.12:852][135]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.10.12:873][137]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.10.12:873][137]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.10.12:892][138]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.10.12:893][138]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.10.12:914][139]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.10.12:914][139]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.10.12:932][140]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.10.12:932][140]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.10.12:950][141]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.10.12:950][141]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.10.12:968][142]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.10.12:968][142]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.10.12:985][143]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.10.12:985][143]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.10.13:003][144]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.10.13:003][144]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.10.13:021][145]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.10.21:610][612]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_8
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.10.21:610][612]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_8
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.10.21:611][612]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_8
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.10.21:611][612]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_8
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.10.21:611][612]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.10.21:611][612]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.10.21:612][612]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.10.21:612][612]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.10.21:649][612]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_10
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.10.23:785][732]LogEditorTransaction: Undo コンポーネントを追加
+[2023.01.11-03.10.23:791][732]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_8
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.10.23:791][732]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_8
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.10.23:792][732]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_8
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.04:255][983]BlueprintLog: New page: BPAward をコンパイル
+[2023.01.11-03.11.04:324][983]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_11
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.04:324][983]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_11
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.04:324][983]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_12
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.04:324][983]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_12
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.04:325][983]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_13
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.04:325][983]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_13
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.04:326][983]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.04:326][983]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.05:034][983]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_12
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.05:034][983]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_12
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.05:034][983]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_12
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.05:034][983]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_12
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.05:035][983]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.05:035][983]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.05:036][983]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.05:036][983]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.05:037][983]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_18.CharacterMesh0.BP_Anim_Award_C_15
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.05:037][983]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_18.CharacterMesh0.BP_Anim_Award_C_15
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.05:069][983]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.05:069][983]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.05:147][985]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.05:147][985]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.05:171][986]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.05:171][986]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.05:200][987]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.05:200][987]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.05:246][988]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.05:246][988]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.05:267][989]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.05:267][989]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.05:285][990]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.05:285][990]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.05:303][991]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.05:303][991]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.05:320][992]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.05:320][992]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.05:337][993]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.09:666][239]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.09:666][239]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.09:667][239]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.09:667][239]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_14
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.09:668][239]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_18.CharacterMesh0.BP_Anim_Award_C_15
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.09:668][239]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_18.CharacterMesh0.BP_Anim_Award_C_15
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.09:668][239]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_18.CharacterMesh0.BP_Anim_Award_C_15
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.09:668][239]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_18.CharacterMesh0.BP_Anim_Award_C_15
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.18:631][766]BlueprintLog: New page: BPAward をコンパイル
+[2023.01.11-03.11.18:683][766]LogBlueprint: Error: [Compiler BPAward] Object  のタイプが不確定です。特定タイプを暗示するために  Cast To BP_Award_GameController  へ何かを接続してください            
+[2023.01.11-03.11.18:687][766]LogBlueprint: Error: [Compiler BPAward] ' Object ' ピンの現行値は無効です： Unsupported type ワイルドカード on pin Object
+[2023.01.11-03.11.18:696][766]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_16
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.18:696][766]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_16
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.18:697][766]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_17
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.18:697][766]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_17
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.18:697][766]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_18.CharacterMesh0.BP_Anim_Award_C_18
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.18:697][766]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_18.CharacterMesh0.BP_Anim_Award_C_18
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.18:698][766]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_18.CharacterMesh0.BP_Anim_Award_C_19
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.18:698][766]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_18.CharacterMesh0.BP_Anim_Award_C_19
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.19:406][766]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_17
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.19:406][766]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_11:PersistentLevel.BPAward_C_1.CharacterMesh0.BP_Anim_Award_C_17
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.19:407][766]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_18.CharacterMesh0.BP_Anim_Award_C_19
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.19:407][766]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_18.CharacterMesh0.BP_Anim_Award_C_19
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.19:407][766]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_20
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:00B1
+[2023.01.11-03.11.19:407][766]LogScript: Warning: Accessed None trying to read property IsClearInstance
+	BP_Anim_Award_C /Engine/Transient.World_6:PersistentLevel.BPAward_C_0.CharacterMesh0.BP_Anim_Award_C_20
+	Function /Game/Animation/BP_Anim_Award.BP_Anim_Award_C:ExecuteUbergraph_BP_Anim_Award:01A5
+[2023.01.11-03.11.19:410][766]LogBlueprint: Warning: [Compiler BPAward] [6472.42] Compile of BPAward failed. 2 Fatal Issue(s) 0 Warning(s) [in 779 ms] (/Game/BP/BPAward.BPAward)
+[2023.01.11-03.11.24:727][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Floor1" FILE="D:/UE4_RPG/THE7/Content/Map/Floor1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.11-03.11.24:751][ 26]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: Floor1, Actor: /Game/Map/Floor1.Floor1:PersistentLevel.Floor1_C_0
+[2023.01.11-03.11.25:059][ 26]LogSavePackage: Save=309.26ms
+[2023.01.11-03.11.25:059][ 26]LogSavePackage: Moving 'D:/UE4_RPG/THE7/Saved/Floor1090016694D237483B2DDE5B468247F67.tmp' to 'D:/UE4_RPG/THE7/Content/Map/Floor1.umap'
+[2023.01.11-03.11.25:061][ 26]LogSavePackage: Display: Finished SavePackage D:/UE4_RPG/THE7/Content/Map/Floor1.umap
+[2023.01.11-03.11.25:062][ 26]LogFileHelpers: Saving map 'Floor1' took 0.412
+[2023.01.11-03.11.25:132][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Floor3" FILE="D:/UE4_RPG/THE7/Content/Map/Floor3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.11-03.11.25:723][ 26]LogSavePackage: Save=569.12ms
+[2023.01.11-03.11.25:723][ 26]LogSavePackage: Moving 'D:/UE4_RPG/THE7/Saved/Floor351E182E14E6BE0797FEF6AA27A4C995C.tmp' to 'D:/UE4_RPG/THE7/Content/Map/Floor3.umap'
+[2023.01.11-03.11.25:725][ 26]LogSavePackage: Display: Finished SavePackage D:/UE4_RPG/THE7/Content/Map/Floor3.umap
+[2023.01.11-03.11.25:726][ 26]LogFileHelpers: Saving map 'Floor3' took 0.661
+[2023.01.11-03.11.25:796][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Floor4" FILE="D:/UE4_RPG/THE7/Content/Map/Floor4.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.11-03.11.26:640][ 26]LogSavePackage: Save=819.26ms
+[2023.01.11-03.11.26:640][ 26]LogSavePackage: Moving 'D:/UE4_RPG/THE7/Saved/Floor4897A64F745C73DDA3B94C9A9A907453A.tmp' to 'D:/UE4_RPG/THE7/Content/Map/Floor4.umap'
+[2023.01.11-03.11.26:641][ 26]LogSavePackage: Display: Finished SavePackage D:/UE4_RPG/THE7/Content/Map/Floor4.umap
+[2023.01.11-03.11.26:642][ 26]LogFileHelpers: Saving map 'Floor4' took 0.913
+[2023.01.11-03.11.26:711][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Floor5" FILE="D:/UE4_RPG/THE7/Content/Map/Floor5.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.11-03.11.28:410][ 26]LogSavePackage: Save=1674.19ms
+[2023.01.11-03.11.28:410][ 26]LogSavePackage: Moving 'D:/UE4_RPG/THE7/Saved/Floor5ED7CFBDD4529BA56F612DB8A04978A61.tmp' to 'D:/UE4_RPG/THE7/Content/Map/Floor5.umap'
+[2023.01.11-03.11.28:412][ 26]LogSavePackage: Display: Finished SavePackage D:/UE4_RPG/THE7/Content/Map/Floor5.umap
+[2023.01.11-03.11.28:414][ 26]LogFileHelpers: Saving map 'Floor5' took 1.768
+[2023.01.11-03.11.28:421][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Award_GameController" FILE="D:/UE4_RPG/THE7/Content/BP/BP_Award_GameController.uasset" SILENT=true
+[2023.01.11-03.11.28:484][ 26]LogSavePackage: Save=58.89ms
+[2023.01.11-03.11.28:484][ 26]LogSavePackage: Moving 'D:/UE4_RPG/THE7/Saved/BP_Award_GameController3A68E8424B16E382F8B3C4A28A68622E.tmp' to 'D:/UE4_RPG/THE7/Content/BP/BP_Award_GameController.uasset'
+[2023.01.11-03.11.28:485][ 26]LogSavePackage: Display: Finished SavePackage D:/UE4_RPG/THE7/Content/BP/BP_Award_GameController.uasset
+[2023.01.11-03.11.28:516][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BPAward" FILE="D:/UE4_RPG/THE7/Content/BP/BPAward.uasset" SILENT=true
+[2023.01.11-03.11.28:579][ 26]LogSavePackage: Save=61.61ms
+[2023.01.11-03.11.28:579][ 26]LogSavePackage: Moving 'D:/UE4_RPG/THE7/Saved/BPAward6F220EDA4DC35C9A89ABBAB0914CB6F8.tmp' to 'D:/UE4_RPG/THE7/Content/BP/BPAward.uasset'
+[2023.01.11-03.11.28:581][ 26]LogSavePackage: Display: Finished SavePackage D:/UE4_RPG/THE7/Content/BP/BPAward.uasset
+[2023.01.11-03.11.30:146][ 96]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.01.11-03.11.30:209][ 96]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.01.11-03.11.30:476][ 97]Cmd: QUIT_EDITOR
+[2023.01.11-03.11.30:592][ 97]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2023.01.11-03.11.30:605][ 97]LogExit: Preparing to exit.
+[2023.01.11-03.11.31:456][ 97]LogExit: Editor shut down
+[2023.01.11-03.11.31:482][ 97]LogExit: Transaction tracking system shut down
+[2023.01.11-03.11.31:673][ 97]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2023.01.11-03.11.31:673][ 97]LogDirectoryWatcher: A directory notification for 'D:/UE4_RPG/THE7/Content/' was aborted.
+[2023.01.11-03.11.31:673][ 97]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2023.01.11-03.11.31:673][ 97]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2023.01.11-03.11.31:673][ 97]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2023.01.11-03.11.31:800][ 97]LogExit: Object subsystem successfully closed.
+[2023.01.11-03.11.31:819][ 97]LogD3D11RHI: Shutdown
+[2023.01.11-03.11.31:819][ 97]LogD3D11RHI: CleanupD3DDevice
+[2023.01.11-03.11.32:011][ 97]LogD3D11RHI: ~FD3D11DynamicRHI
+[2023.01.11-03.11.32:073][ 97]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (542)
+[2023.01.11-03.11.32:073][ 97]LogModuleManager: Shutting down and abandoning module SynthBenchmark (540)
+[2023.01.11-03.11.32:073][ 97]LogModuleManager: Shutting down and abandoning module SequencerWidgets (538)
+[2023.01.11-03.11.32:073][ 97]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2023.01.11-03.11.32:073][ 97]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2023.01.11-03.11.32:073][ 97]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2023.01.11-03.11.32:073][ 97]LogModuleManager: Shutting down and abandoning module WorldBrowser (530)
+[2023.01.11-03.11.32:073][ 97]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2023.01.11-03.11.32:073][ 97]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2023.01.11-03.11.32:073][ 97]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2023.01.11-03.11.32:079][ 97]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2023.01.11-03.11.32:079][ 97]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2023.01.11-03.11.32:079][ 97]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2023.01.11-03.11.32:079][ 97]LogDirectoryWatcher: A directory notification for 'D:/UE4_RPG/THE7/Content/Collections/' was aborted.
+[2023.01.11-03.11.32:079][ 97]LogDirectoryWatcher: A directory notification for 'D:/UE4_RPG/THE7/Content/Developers/kbc12006137/Collections/' was aborted.
+[2023.01.11-03.11.32:079][ 97]LogDirectoryWatcher: A directory notification for 'D:/UE4_RPG/THE7/Saved/Collections/' was aborted.
+[2023.01.11-03.11.32:079][ 97]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2023.01.11-03.11.32:079][ 97]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2023.01.11-03.11.32:079][ 97]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module Media (477)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2023.01.11-03.11.32:080][ 97]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2023.01.11-03.11.32:081][ 97]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2023.01.11-03.11.32:081][ 97]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2023.01.11-03.11.32:081][ 97]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2023.01.11-03.11.32:081][ 97]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2023.01.11-03.11.32:081][ 97]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2023.01.11-03.11.32:370][ 97]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2023.01.11-03.11.32:370][ 97]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2023.01.11-03.11.32:371][ 97]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2023.01.11-03.11.32:371][ 97]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2023.01.11-03.11.32:371][ 97]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2023.01.11-03.11.32:371][ 97]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2023.01.11-03.11.32:371][ 97]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2023.01.11-03.11.32:371][ 97]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2023.01.11-03.11.32:371][ 97]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2023.01.11-03.11.32:371][ 97]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2023.01.11-03.11.32:371][ 97]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2023.01.11-03.11.32:371][ 97]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2023.01.11-03.11.32:371][ 97]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2023.01.11-03.11.32:371][ 97]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2023.01.11-03.11.32:371][ 97]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2023.01.11-03.11.32:371][ 97]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2023.01.11-03.11.32:371][ 97]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2023.01.11-03.11.32:371][ 97]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2023.01.11-03.11.32:371][ 97]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2023.01.11-03.11.32:371][ 97]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2023.01.11-03.11.32:371][ 97]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2023.01.11-03.11.32:371][ 97]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2023.01.11-03.11.32:371][ 97]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2023.01.11-03.11.32:372][ 97]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2023.01.11-03.11.32:427][ 97]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2023.01.11-03.11.32:427][ 97]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2023.01.11-03.11.32:427][ 97]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2023.01.11-03.11.32:427][ 97]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2023.01.11-03.11.32:427][ 97]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2023.01.11-03.11.32:427][ 97]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2023.01.11-03.11.32:427][ 97]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2023.01.11-03.11.32:427][ 97]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2023.01.11-03.11.32:427][ 97]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2023.01.11-03.11.32:427][ 97]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2023.01.11-03.11.32:434][ 97]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2023.01.11-03.11.32:435][ 97]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2023.01.11-03.11.32:435][ 97]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2023.01.11-03.11.32:435][ 97]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2023.01.11-03.11.32:435][ 97]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2023.01.11-03.11.32:435][ 97]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2023.01.11-03.11.32:435][ 97]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2023.01.11-03.11.32:435][ 97]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2023.01.11-03.11.32:435][ 97]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2023.01.11-03.11.32:435][ 97]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2023.01.11-03.11.32:435][ 97]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2023.01.11-03.11.32:436][ 97]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2023.01.11-03.11.32:436][ 97]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2023.01.11-03.11.32:436][ 97]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2023.01.11-03.11.32:436][ 97]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2023.01.11-03.11.32:436][ 97]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2023.01.11-03.11.32:436][ 97]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2023.01.11-03.11.32:436][ 97]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2023.01.11-03.11.32:436][ 97]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2023.01.11-03.11.32:436][ 97]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2023.01.11-03.11.32:436][ 97]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2023.01.11-03.11.32:616][ 97]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2023.01.11-03.11.32:616][ 97]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2023.01.11-03.11.32:616][ 97]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2023.01.11-03.11.32:616][ 97]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2023.01.11-03.11.32:616][ 97]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2023.01.11-03.11.32:616][ 97]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2023.01.11-03.11.32:616][ 97]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2023.01.11-03.11.32:616][ 97]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2023.01.11-03.11.32:616][ 97]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2023.01.11-03.11.32:617][ 97]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2023.01.11-03.11.32:617][ 97]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2023.01.11-03.11.32:617][ 97]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2023.01.11-03.11.32:617][ 97]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2023.01.11-03.11.32:617][ 97]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2023.01.11-03.11.32:617][ 97]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2023.01.11-03.11.32:617][ 97]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2023.01.11-03.11.32:617][ 97]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2023.01.11-03.11.32:617][ 97]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2023.01.11-03.11.32:618][ 97]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2023.01.11-03.11.32:618][ 97]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2023.01.11-03.11.32:618][ 97]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2023.01.11-03.11.32:618][ 97]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2023.01.11-03.11.32:618][ 97]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2023.01.11-03.11.32:618][ 97]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2023.01.11-03.11.32:619][ 97]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2023.01.11-03.11.32:619][ 97]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2023.01.11-03.11.32:619][ 97]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2023.01.11-03.11.32:619][ 97]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2023.01.11-03.11.32:619][ 97]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2023.01.11-03.11.32:619][ 97]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2023.01.11-03.11.32:619][ 97]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2023.01.11-03.11.32:620][ 97]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2023.01.11-03.11.32:624][ 97]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2023.01.11-03.11.32:624][ 97]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2023.01.11-03.11.32:624][ 97]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2023.01.11-03.11.32:625][ 97]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2023.01.11-03.11.32:626][ 97]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2023.01.11-03.11.32:626][ 97]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2023.01.11-03.11.32:626][ 97]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2023.01.11-03.11.32:626][ 97]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2023.01.11-03.11.32:626][ 97]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2023.01.11-03.11.32:626][ 97]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2023.01.11-03.11.32:626][ 97]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2023.01.11-03.11.32:727][ 97]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2023.01.11-03.11.32:827][ 97]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2023.01.11-03.11.32:827][ 97]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2023.01.11-03.11.32:827][ 97]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2023.01.11-03.11.32:827][ 97]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2023.01.11-03.11.32:827][ 97]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2023.01.11-03.11.32:827][ 97]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2023.01.11-03.11.32:831][ 97]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2023.01.11-03.11.32:831][ 97]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2023.01.11-03.11.32:831][ 97]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2023.01.11-03.11.32:831][ 97]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2023.01.11-03.11.32:834][ 97]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2023.01.11-03.11.32:834][ 97]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2023.01.11-03.11.32:834][ 97]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2023.01.11-03.11.32:834][ 97]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2023.01.11-03.11.32:834][ 97]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2023.01.11-03.11.32:834][ 97]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2023.01.11-03.11.32:835][ 97]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2023.01.11-03.11.32:835][ 97]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2023.01.11-03.11.32:835][ 97]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2023.01.11-03.11.32:835][ 97]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2023.01.11-03.11.32:835][ 97]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2023.01.11-03.11.32:835][ 97]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2023.01.11-03.11.32:835][ 97]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2023.01.11-03.11.32:835][ 97]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2023.01.11-03.11.32:835][ 97]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2023.01.11-03.11.32:835][ 97]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2023.01.11-03.11.32:835][ 97]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2023.01.11-03.11.32:836][ 97]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2023.01.11-03.11.32:836][ 97]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2023.01.11-03.11.32:836][ 97]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2023.01.11-03.11.32:842][ 97]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2023.01.11-03.11.32:842][ 97]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2023.01.11-03.11.32:842][ 97]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2023.01.11-03.11.32:842][ 97]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2023.01.11-03.11.32:842][ 97]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2023.01.11-03.11.32:842][ 97]LogModuleManager: Shutting down and abandoning module Core (168)
+[2023.01.11-03.11.32:842][ 97]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2023.01.11-03.11.32:842][ 97]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2023.01.11-03.11.32:842][ 97]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2023.01.11-03.11.32:843][ 97]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2023.01.11-03.11.32:843][ 97]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2023.01.11-03.11.32:843][ 97]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2023.01.11-03.11.32:843][ 97]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2023.01.11-03.11.32:843][ 97]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2023.01.11-03.11.32:843][ 97]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2023.01.11-03.11.32:844][ 97]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2023.01.11-03.11.32:860][ 97]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2023.01.11-03.11.32:885][ 97]LogDerivedDataCache: Shutdown
+[2023.01.11-03.11.32:886][ 97]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2023.01.11-03.11.32:886][ 97]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2023.01.11-03.11.32:886][ 97]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2023.01.11-03.11.32:887][ 97]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2023.01.11-03.11.32:887][ 97]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2023.01.11-03.11.32:887][ 97]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2023.01.11-03.11.32:887][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2023.01.11-03.11.32:887][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2023.01.11-03.11.32:887][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2023.01.11-03.11.32:888][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2023.01.11-03.11.32:888][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2023.01.11-03.11.32:889][ 97]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2023.01.11-03.11.32:889][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2023.01.11-03.11.32:889][ 97]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2023.01.11-03.11.32:889][ 97]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2023.01.11-03.11.32:889][ 97]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2023.01.11-03.11.32:889][ 97]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2023.01.11-03.11.32:889][ 97]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2023.01.11-03.11.32:889][ 97]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2023.01.11-03.11.32:890][ 97]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2023.01.11-03.11.32:890][ 97]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2023.01.11-03.11.32:890][ 97]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2023.01.11-03.11.32:890][ 97]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2023.01.11-03.11.32:890][ 97]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2023.01.11-03.11.32:890][ 97]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2023.01.11-03.11.32:890][ 97]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2023.01.11-03.11.32:890][ 97]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2023.01.11-03.11.32:891][ 97]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2023.01.11-03.11.32:891][ 97]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2023.01.11-03.11.32:891][ 97]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2023.01.11-03.11.32:891][ 97]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2023.01.11-03.11.32:891][ 97]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2023.01.11-03.11.32:891][ 97]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2023.01.11-03.11.32:891][ 97]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2023.01.11-03.11.32:891][ 97]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2023.01.11-03.11.32:891][ 97]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2023.01.11-03.11.32:891][ 97]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2023.01.11-03.11.32:891][ 97]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2023.01.11-03.11.32:892][ 97]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2023.01.11-03.11.32:892][ 97]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2023.01.11-03.11.32:892][ 97]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2023.01.11-03.11.32:892][ 97]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2023.01.11-03.11.32:892][ 97]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2023.01.11-03.11.32:892][ 97]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2023.01.11-03.11.32:892][ 97]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2023.01.11-03.11.32:892][ 97]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2023.01.11-03.11.32:892][ 97]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2023.01.11-03.11.32:892][ 97]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2023.01.11-03.11.32:893][ 97]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2023.01.11-03.11.32:893][ 97]LogOnline: Display: Unloading online subsystem: NULL
+[2023.01.11-03.11.32:893][ 97]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2023.01.11-03.11.32:893][ 97]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2023.01.11-03.11.32:893][ 97]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2023.01.11-03.11.32:894][ 97]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5389D165-4257-D4C9-B35B-04920C5E85EB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=025d81ba4313f7ede2e4b5aade24dd58%7C1c396782e3db4fe199491e3a12fa3bc4%7Ce1625542-77cd-48e1-9c3c-790e23bc423d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2023.01.11-03.11.32:904][ 97]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2023.01.11-03.11.32:911][ 97]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2023.01.11-03.11.32:911][ 97]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2023.01.11-03.11.32:911][ 97]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2023.01.11-03.11.32:911][ 97]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2023.01.11-03.11.32:912][ 97]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2023.01.11-03.11.32:912][ 97]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2023.01.11-03.11.32:912][ 97]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2023.01.11-03.11.32:941][ 97]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2023.01.11-03.11.32:941][ 97]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2023.01.11-03.11.32:941][ 97]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2023.01.11-03.11.32:941][ 97]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2023.01.11-03.11.32:941][ 97]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2023.01.11-03.11.32:941][ 97]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2023.01.11-03.11.32:941][ 97]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2023.01.11-03.11.32:941][ 97]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2023.01.11-03.11.32:941][ 97]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2023.01.11-03.11.32:941][ 97]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2023.01.11-03.11.32:941][ 97]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2023.01.11-03.11.32:949][ 97]LogExit: Exiting.
+[2023.01.11-03.11.32:966][ 97]Log file closed, 01/11/23 12:11:32
+>>>>>>> Asuma
